@@ -1,0 +1,4 @@
+Bom dia !!!
+ Este e um arquivo para testar como os arquivos são chamados em java.
+
+Fim. [...]
