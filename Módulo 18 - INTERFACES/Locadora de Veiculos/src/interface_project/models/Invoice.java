@@ -1,54 +1,58 @@
 package interface_project.models;
 
 public class Invoice {
-    
-    private Double basicPayment;
-    private Double tax;
 
-    
-    //----------------------------
-    //!       CONSTRUCTOR
-    //----------------------------
-    public Invoice(Double basicPayment, Double tax) {
-        this.basicPayment = basicPayment;
-        this.tax = tax;
-    }
-    public Invoice() {
-    }
+  private Double basicPayment;
+  private Double tax;
 
-    //----------------------------
-    //!    GETTERS AND SETTERS
-    //----------------------------
-    public Double getBasicPayment() {
-        return basicPayment;
-    }
+  //----------------------------
+  //!       CONSTRUCTOR
+  //----------------------------
+  public Invoice(Double basicPayment, Double tax) {
+    this.basicPayment = basicPayment;
+    this.tax = tax;
+  }
 
-    public void setBasicPayment(Double basicPayment) {
-        this.basicPayment = basicPayment;
-    }
+  public Invoice() {}
 
-    public Double getTax() {
-        return tax;
-    }
+  //----------------------------
+  //!    GETTERS AND SETTERS
+  //----------------------------
+  public Double getBasicPayment() {
+    return basicPayment;
+  }
 
-    public void setTax(Double tax) {
-        this.tax = tax;
-    }
-    
-    
-    //----------------------------
-    //!         METHODS
-    //----------------------------
-    public Double getTotalPayment() {
-        return getBasicPayment() + getTax();
-    }
-    @Override
-    public String toString() {
-        return "Pagamento |INVOICE :   \n"
-                + "Basic Payment: " + basicPayment + "\n"
-                + "Tax: " + tax + ""
-                + "Total Payment: " + getTotalPayment();
+  public void setBasicPayment(Double basicPayment) {
+    this.basicPayment = basicPayment;
+  }
 
-    }
+  public Double getTax() {
+    return tax;
+  }
 
+  public void setTax(Double tax) {
+    this.tax = tax;
+  }
+
+  //----------------------------
+  //!         METHODS
+  //----------------------------
+  public Double getTotalPayment() {
+    return getBasicPayment() + getTax();
+  }
+
+  @Override
+  public String toString() {
+    return (
+      "Pagamento |INVOICE :   \n" +
+      "Basic Payment: " +
+      basicPayment +
+      "\n" +
+      "Tax: " +
+      tax +
+      "" +
+      "Total Payment: " +
+      getTotalPayment()
+    );
+  }
 }

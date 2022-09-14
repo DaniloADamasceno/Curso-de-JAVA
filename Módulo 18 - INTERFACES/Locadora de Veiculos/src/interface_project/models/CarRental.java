@@ -3,65 +3,65 @@ package interface_project.models;
 import java.sql.Date;
 
 public class CarRental {
-    
-    private Date dateStart;
-    private Date dateEnd;
 
-    //----------------------------
-    //!       ASSOCIATIONS
-    //----------------------------
-    private Vehicle vehicle;
-    private Invoice invoice;
+  private Date dateStart;
+  private Date dateEnd;
 
-    //----------------------------
-    //!       CONSTRUCTOR
-    //----------------------------
-    public CarRental(Date dateStart, Date dateFinish, Vehicle vehicle) {
-        this.dateStart = dateStart;
-        this.dateEnd = dateFinish;
-        this.vehicle = vehicle;
-    }
+  //----------------------------
+  //!       ASSOCIATIONS
+  //----------------------------
+  private Vehicle vehicle;
+  private Invoice invoice;
 
-    public CarRental() {
-    }
+  //----------------------------
+  //!       CONSTRUCTOR
+  //----------------------------
+  public CarRental(Date dateStart, Date dateFinish, Vehicle vehicle) {
+    this.dateStart = dateStart;
+    this.dateEnd = dateFinish;
+    this.vehicle = vehicle;
+  }
 
-    public CarRental(java.util.Date dateStart2, java.util.Date dateFinish, Vehicle vehicle2) {
-    }
+  public CarRental() {}
 
-    //----------------------------
-    //!    GETTERS AND SETTERS
-    //----------------------------
-    public Date getDateStart() {
-        return dateStart;
-    }
+  public CarRental(
+    java.util.Date dateStart2,
+    java.util.Date dateFinish,
+    Vehicle vehicle2
+  ) {}
 
-    public void setDateStart(Date dateStart) {
-        this.dateStart = dateStart;
-    }
+  //----------------------------
+  //!    GETTERS AND SETTERS
+  //----------------------------
+  public Date getDateStart() {
+    return dateStart;
+  }
 
-    public Date getDateEnd() {
-        return dateEnd;
-    }
+  public void setDateStart(Date dateStart) {
+    this.dateStart = dateStart;
+  }
 
-    public void setDateEnd(Date dateEnd) {
-        this.dateEnd = dateEnd;
-    }
+  public Date getDateEnd() {
+    return dateEnd;
+  }
 
-    public Vehicle getVehicle() {
-        return vehicle;
-    }
+  public void setDateEnd(Date dateEnd) {
+    this.dateEnd = dateEnd;
+  }
 
-    public void setVehicle(Vehicle vehicle) {
-        this.vehicle = vehicle;
-    }
+  public Vehicle getVehicle() {
+    return vehicle;
+  }
 
-    public Invoice getInvoice() {
-        return invoice;
-    }
+  public void setVehicle(Vehicle vehicle) {
+    this.vehicle = vehicle;
+  }
 
-    public void setInvoice(Invoice invoice) {
-        this.invoice = invoice;
-    }
+  public Invoice getInvoice() {
+    return invoice;
+  }
 
-    
+  public void setInvoice(Invoice invoice) {
+    this.invoice = invoice;
+  }
 }

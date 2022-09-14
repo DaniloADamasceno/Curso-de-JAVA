@@ -11,9 +11,8 @@ public class Vehicle {
     this.model = model;
   }
 
-  public Vehicle() {
-  }
-  
+  public Vehicle() {}
+
   //----------------------
   //! GETTERS AND SETTERS
   //----------------------
