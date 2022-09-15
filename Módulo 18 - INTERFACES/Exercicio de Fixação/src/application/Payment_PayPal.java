@@ -1,18 +1,17 @@
 package application;
 
+import entities.Contract;
+import entities.Parcelas;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
 import java.util.Scanner;
-
-import entities.Contract;
-import entities.Parcelas;
 import service.ContractService;
 //import service.Online_Payment_Service;
 import service.Paypal_Service;
 
-public class Payment_PayPal{
+public class Payment_PayPal {
 
   public static void main(String[] args) throws ParseException {
     /*
@@ -75,23 +74,21 @@ public class Payment_PayPal{
     int numberParcelas = scan.nextInt();
     System.out.println(); //quebra de linha
 
-    Contract contract = new Contract (
+    Contract contract = new Contract(
       numberContract,
       contractDate,
       totalValueContract
     );
 
     //%%---------->>> Instanciando o objeto
-      ContractService contractService = new ContractService(
-        new Paypal_Service()
-      );
+    ContractService contractService = new ContractService(new Paypal_Service());
 
-      contractService.processContract(contract, numberParcelas);
+    contractService.processContract(contract, numberParcelas);
 
-System.out.println("Parcelas: || Installments: ");
-      for(Parcelas parcelasExibir : contract.getParcelas()) {
-        System.out.println(parcelasExibir);
-      }
+    System.out.println("Parcelas: || Installments: ");
+    for (Parcelas parcelasExibir : contract.getParcelas()) {
+      System.out.println(parcelasExibir);
+    }
 
     scan.close();
   }
