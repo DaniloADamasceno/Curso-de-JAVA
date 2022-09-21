@@ -4,6 +4,7 @@ import java.util.Locale;
 import java.util.Scanner;
 
 import services.BrazilInterestService;
+import services.InterestService_INTER;
 
 public class App {
     public static void main(String[] args) throws Exception {
@@ -24,7 +25,7 @@ public class App {
         System.out.print(" Months || Meses : ");
         int months = scan.nextInt(); // Meses
 
-        BrazilInterestService BrazIntService = new BrazilInterestService(2.0);
+        InterestService_INTER BrazIntService = new BrazilInterestService(2.0);
         double payment = BrazIntService.payment(amount, months);
 
         System.out.println(); // Quebra de linha

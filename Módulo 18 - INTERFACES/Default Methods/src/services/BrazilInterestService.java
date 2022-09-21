@@ -1,6 +1,6 @@
 package services;
 
-public class BrazilInterestService {
+public class BrazilInterestService implements InterestService_INTER {
 
   private Double interestRate;
 
@@ -11,23 +11,24 @@ public class BrazilInterestService {
     this.interestRate = interestRate;
   }
 
-  public BrazilInterestService() {}
+  public BrazilInterestService() {
+  }
 
   //----------------------------
   //!       GETTERS AND SETTERS
   //----------------------------
-  public Double getInterestRate() {
+  @Override
+  public double getInterestRate() {
     return interestRate;
   }
 
   public void setInterestRate(Double interestRate) {
-      this.interestRate = interestRate;
+    this.interestRate = interestRate;
   }
-  
+
   //----------------------
-    //!       METHODS
-    //----------------------
-    public double payment(double amount, int months) {
-        return amount * Math.pow(1.0 + interestRate / 100.0, months);
-    }
+  //!       METHODS
+  //----------------------
+  
+  
 }
