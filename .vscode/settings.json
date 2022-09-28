@@ -4,5 +4,8 @@
         "editor.insertSpaces": true,
         "editor.detectIndentation": true,
         "editor.tabSize": 6
-    }
+    },
+    "cSpell.words": [
+        "Xiaomi"
+    ]
 }
