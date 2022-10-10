@@ -7,6 +7,8 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+import Generics.entities.Product;
+
 public class Sem_GenericsDelimitados {
 
   public static void main(String[] args) throws IOException {
@@ -17,7 +19,7 @@ public class Sem_GenericsDelimitados {
         mostre o mais caro deles
          */
 
-    List<Integer> list = new ArrayList<>();
+    List< Product> list = new ArrayList<>();
 
     String path =
       "D:\\Danilo A. Damasceno\\Desktop\\JavaScript e JAVA\\JAVA\\Modulos 17 a 20\\Curso-de-JAVA\\MÓDULO 19 - Generics , Set e Map\\Generics Delimitados\\arc\\Exemplo-Generics-Delimitados.txt";
@@ -26,11 +28,11 @@ public class Sem_GenericsDelimitados {
       String line = brReader.readLine();
 
       while (line != null) {
-        list.add(Integer.parseInt(line));
+        list.add(Integer.parseInt(line), null);
         line = brReader.readLine();
       }
 
-      Integer xMax = CalculationService.max(list);
+      Product xMax = CalculationService.max(list);
       System.out.println("Max: || Máximo: " + xMax);
       System.out.println(xMax);
       System.out.println();// Quebra de linha
