@@ -1,0 +1,132 @@
+Index: src/main/java/componets/crud/Application.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/componets/crud/Application.java b/src/main/java/componets/crud/Application.java
+new file mode 100644
+--- /dev/null	(date 1672068911170)
++++ b/src/main/java/componets/crud/Application.java	(date 1672068911170)
+@@ -0,0 +1,9 @@
++package componets.crud;
++
++public class Application {
++
++    public static void main(String[] args) {
++        System.out.println("Hello World!");
++    }
++}
++}
+Index: src/main/java/componets/crud/models/Expenses.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/componets/crud/models/Expenses.java b/src/main/java/componets/crud/models/Expenses.java
+new file mode 100644
+--- /dev/null	(date 1672068416820)
++++ b/src/main/java/componets/crud/models/Expenses.java	(date 1672068416820)
+@@ -0,0 +1,12 @@
++package componets.crud.models;
++
++import java.time.LocalDate;
++
++public class Expenses {
++    private Long id;
++    private String description;
++    private LocalDate date;
++    private double amount;
++    private Category category;
++
++}
+Index: pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/pom.xml b/pom.xml
+new file mode 100644
+--- /dev/null	(date 1672065953113)
++++ b/pom.xml	(date 1672065953113)
+@@ -0,0 +1,17 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project xmlns="http://maven.apache.org/POM/4.0.0"
++         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
++         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
++    <modelVersion>4.0.0</modelVersion>
++
++    <groupId>org.example</groupId>
++    <artifactId>Crud_JAVA</artifactId>
++    <version>1.0-SNAPSHOT</version>
++
++    <properties>
++        <maven.compiler.source>17</maven.compiler.source>
++        <maven.compiler.target>17</maven.compiler.target>
++        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
++    </properties>
++
++</project>
+\ No newline at end of file
+Index: src/main/java/componets/crud/models/Category.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/componets/crud/models/Category.java b/src/main/java/componets/crud/models/Category.java
+new file mode 100644
+--- /dev/null	(date 1672067784073)
++++ b/src/main/java/componets/crud/models/Category.java	(date 1672067784073)
+@@ -0,0 +1,10 @@
++package componets.crud.models;
++
++public enum Category {
++    FOOD,
++    TRANSPORTATION,
++    UTILITIES,
++    ENTERTAINMENT,
++    OTHER
++}
++
+Index: src/main/java/componets/crud/data_Access_Object/ExprensesDAO.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/componets/crud/data_Access_Object/ExprensesDAO.java b/src/main/java/componets/crud/data_Access_Object/ExprensesDAO.java
+new file mode 100644
+--- /dev/null	(date 1672068789531)
++++ b/src/main/java/componets/crud/data_Access_Object/ExprensesDAO.java	(date 1672068789531)
+@@ -0,0 +1,5 @@
++package componets.crud.data_Access_Object;
++
++// classe responsavel pela implementação da interface Itf_Expenses
++public class ExprensesDAO implements Itf_Expenses{
++}
+Index: src/main/java/componets/crud/data_Access_Object/Itf_Expenses.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/componets/crud/data_Access_Object/Itf_Expenses.java b/src/main/java/componets/crud/data_Access_Object/Itf_Expenses.java
+new file mode 100644
+--- /dev/null	(date 1672068652349)
++++ b/src/main/java/componets/crud/data_Access_Object/Itf_Expenses.java	(date 1672068652349)
+@@ -0,0 +1,18 @@
++package componets.crud.data_Access_Object;
++
++import componets.crud.models.Expenses;
++import java.util.Optional;
++import java.util.List;
++
++public interface Itf_Expenses {
++
++    // Metodos pra criar, ler, atualizar e deletar
++    Expenses save(Expenses expenses);
++    Expenses update(Expenses expenses);
++    void delete(Long id);
++    List<Expenses> findAll();
++    Optional<Expenses> findById(Long id);
++    List<Expenses> findByCategory(String category);
++
++
++}

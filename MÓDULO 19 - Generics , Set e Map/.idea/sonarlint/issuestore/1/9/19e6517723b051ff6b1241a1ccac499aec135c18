@@ -1,0 +1,8 @@
+
+7
+java:S1220""Move this file to a named package.8“¨¤ŠÓ0
+Ž
+java:S1130"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(ÙØ¤Þýÿÿÿÿ8¢ª¤ŠÓ0
+X	java:S125	"<This block of commented-out lines of code should be removed.(Úª³Æ8¬ª¤ŠÓ0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(©¨«“8Õª¤ŠÓ0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(­ÎºÊüÿÿÿÿ8äª¤ŠÓ0
