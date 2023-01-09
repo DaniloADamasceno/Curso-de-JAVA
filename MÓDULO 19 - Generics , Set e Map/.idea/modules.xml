@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Curingas DELIMITADOS/Curingas DELIMITADOS.iml" filepath="$PROJECT_DIR$/Curingas DELIMITADOS/Curingas DELIMITADOS.iml" />
       <module fileurl="file://$PROJECT_DIR$/Generics Delimitados/Generics Delimitados.iml" filepath="$PROJECT_DIR$/Generics Delimitados/Generics Delimitados.iml" />
       <module fileurl="file://$PROJECT_DIR$/Introdução aos GENERICS/Introdução aos GENERICS.iml" filepath="$PROJECT_DIR$/Introdução aos GENERICS/Introdução aos GENERICS.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/MÓDULO 19 - Generics , Set e Map.iml" filepath="$PROJECT_DIR$/.idea/MÓDULO 19 - Generics , Set e Map.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Tipos Curinga/Tipos Curinga.iml" filepath="$PROJECT_DIR$/Tipos Curinga/Tipos Curinga.iml" />
     </modules>
   </component>
 </project>

@@ -1,10 +1,0 @@
-
-b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(™Ò°Á
-0
-java:S1220""Move this file to a named package.
-g
-java:S2095"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(‘¯®¸þÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(ñ—¸½úÿÿÿÿ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(‚šµž
-E
-java:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
