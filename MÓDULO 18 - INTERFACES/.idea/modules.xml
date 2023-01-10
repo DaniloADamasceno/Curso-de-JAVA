@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Default Methods/Default Methods.iml" filepath="$PROJECT_DIR$/Default Methods/Default Methods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercicio de Fixação/Exercicio de Fixação.iml" filepath="$PROJECT_DIR$/Exercicio de Fixação/Exercicio de Fixação.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Herança Multipla - Problema Diamante/Herança Multipla - Problema Diamante.iml" filepath="$PROJECT_DIR$/Herança Multipla - Problema Diamante/Herança Multipla - Problema Diamante.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Herança e Cumprir Contrato/Herança e Cumprir Contrato.iml" filepath="$PROJECT_DIR$/Herança e Cumprir Contrato/Herança e Cumprir Contrato.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Interface Comparable/Interface Comparable.iml" filepath="$PROJECT_DIR$/Interface Comparable/Interface Comparable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Locadora de Veiculos/Locadora de Veiculos.iml" filepath="$PROJECT_DIR$/Locadora de Veiculos/Locadora de Veiculos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Módulo 18 - INTERFACES.iml" filepath="$PROJECT_DIR$/.idea/Módulo 18 - INTERFACES.iml" />
+    </modules>
+  </component>
+</project>
