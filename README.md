@@ -7,11 +7,11 @@ Este e um Repositório destinado a Java.
 
     Esta pasta esta destinada aos módulos 17 a 20 e um projeto CRUD Basico.
  
-      - [ ] Projeto CRUD - Criar , Ler, Atulizar ou Deletar.
+      - [x] Projeto CRUD - Criar , Ler, Atulizar ou Deletar.
 
-      - [ ] Módulo 17 - Trabalhando com Arquivos.
+      - [x] Módulo 17 - Trabalhando com Arquivos.
 
-      - [ ] Módulo 18 - Interfaces.
+      - [x] Módulo 18 - Interfaces.
 
       - [ ] Módulo 19 - Generics , SET e MAP.
 
