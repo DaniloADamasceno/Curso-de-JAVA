@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf896e62-afbf-4c9c-b0cb-f9d4a9d6e632" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+    <list default="true" id="bf896e62-afbf-4c9c-b0cb-f9d4a9d6e632" name="Changes" comment="     :rocket: Curingas Delimitados // Terminado">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curingas DELIMITADOS/CuringasDelimitados/src/exemplo2/application2/ProgramExemplo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Curingas DELIMITADOS/CuringasDelimitados/src/exemplo2/application2/ProgramExemplo2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,17 +72,18 @@
       <option name="presentableId" value="Default" />
       <updated>1673374080446</updated>
     </task>
+    <task id="LOCAL-00001" summary="     :rocket: Curingas Delimitados // Terminado">
+      <created>1673387269319</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673387269319</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Curingas DELIMITADOS/CuringasDelimitados/src/exemplo2/application2/ProgramExemplo2.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="     :rocket: Curingas Delimitados // Terminado" />
+    <option name="LAST_COMMIT_MESSAGE" value="     :rocket: Curingas Delimitados // Terminado" />
   </component>
 </project>
