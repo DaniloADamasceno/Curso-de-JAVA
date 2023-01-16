@@ -30,9 +30,9 @@ public class ProductSet {
     //------------------------------ Métodos -------------------------------------------------------------
     @Override
     public String toString() {
-        return "Product{" +
-                "name='" + name + '\'' +
-                ", price=" + price +
+        return "Product / Produto { " +
+                "Name / Nome = " + name + '\'' +
+                ", Price / Preço = " + price +
                 '}';
     }
 

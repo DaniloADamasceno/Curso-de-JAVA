@@ -1,4 +1,4 @@
-package application;
+package app;
 
 import java.util.Arrays;
 import java.util.Set;
