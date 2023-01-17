@@ -5,12 +5,12 @@ import java.util.Date;
 public class LogEntry {
 
     private String username;
-    private Date moment;
+    private final Date moment;
 
     //------------------------------------------ Construtores ------------------------------------------
     public LogEntry(String username, Date moment) {
         this.username = username;
-        this.moment = this.moment;
+        this.moment = moment;
     }
 
     //------------------------------------------ Getters e Setters ------------------------------------------

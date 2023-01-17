@@ -7,18 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f7eb72f-ac89-4e3d-90bf-cf90a0dadea4" name="Changes" comment=":alembic: Comparando com TreeSET">
-      <change afterPath="$PROJECT_DIR$/Set/assets/logs-exemplo-set.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Set/src/exemplos/Exemplo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HasCode e Equals/src/application/HasCodeeEqualsProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/HasCode e Equals/src/app/HasCodeeEqualsProgram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Set/src/application/Exemplo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Set/src/app/Exemplo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Set/src/application/Exemplo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Set/src/app/Exemplo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Set/src/application/TesteIgualdadeSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/Set/src/app/TesteIgualdadeSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Set/src/application/TesteIgualdadeTreeSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/Set/src/app/TesteIgualdadeTreeSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Set/src/entities/ProductSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/Set/src/entities/ProductSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Set/src/entities/ProductTreeSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/Set/src/entities/ProductTreeSet.java" afterDir="false" />
-    </list>
+    <list default="true" id="2f7eb72f-ac89-4e3d-90bf-cf90a0dadea4" name="Changes" comment=":bento: Exemplo com classe SET" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,20 +45,20 @@
     <option name="showVisibilityIcons" value="true" />
     <option name="sortByType" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_directory_selection&quot;: &quot;D:/Danilo A. Damasceno/Desktop/JavaScript e JAVA/JAVA/Modulos 17 a 20/Curso-de-JAVA/MÓDULO 19 - Generics , Set e Map/Set/src/application&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Danilo A. Damasceno/Desktop/JavaScript e JAVA/JAVA&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_directory_selection": "D:/Danilo A. Damasceno/Desktop/JavaScript e JAVA/JAVA/Modulos 17 a 20/Curso-de-JAVA/MÓDULO 19 - Generics , Set e Map/Set/src/application",
+    "last_opened_file_path": "D:/Danilo A. Damasceno/Desktop/JavaScript e JAVA/JAVA/Modulos 17 a 20/Curso-de-JAVA/MÓDULO 19 - Generics , Set e Map",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="application" />
@@ -181,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673616085655</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary=":bento: Exemplo com classe SET">
+      <created>1673889954015</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1673889954015</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -203,7 +199,8 @@
     <MESSAGE value=":wrench: HasCode e Equals 1.0" />
     <MESSAGE value=":zap: Comparando com SET" />
     <MESSAGE value=":alembic: Comparando com TreeSET" />
-    <option name="LAST_COMMIT_MESSAGE" value=":alembic: Comparando com TreeSET" />
+    <MESSAGE value=":bento: Exemplo com classe SET" />
+    <option name="LAST_COMMIT_MESSAGE" value=":bento: Exemplo com classe SET" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
