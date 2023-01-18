@@ -13,7 +13,7 @@ Este e um Repositório destinado a Java.
 
       - [x] Módulo 18 - Interfaces.
 
-      - [ ] Módulo 19 - Generics , SET e MAP.
+      - [x] Módulo 19 - Generics , SET e MAP.
 
       - [ ] Módulo 20 - Programação Funcional e Expressões LAMBDA.
    
