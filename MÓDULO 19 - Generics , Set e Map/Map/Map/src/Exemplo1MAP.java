@@ -12,7 +12,7 @@ public class Exemplo1MAP {
         cookies.put("salario", "desempregado");
         cookies.put("raça", "vira-lata");
 
-        cookies.remove("email");                                                                    // remove um elemento do Map pela chave
+        cookies.remove("email");                                                                    // Remove um elemento do Map. Pela chave
         cookies.put("telefone-secundario", "55.55555-5555");                                             // adiciona um elemento ao Map
         cookies.put("telefone-secundario", "33.22222-1111");                                             // Adiciona um elemento e sobrescreve o anterior
 

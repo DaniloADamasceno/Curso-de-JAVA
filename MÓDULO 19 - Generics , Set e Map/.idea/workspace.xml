@@ -8,12 +8,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f7eb72f-ac89-4e3d-90bf-cf90a0dadea4" name="Changes" comment=":bento: Exemplo com classe SET">
+      <change afterPath="$PROJECT_DIR$/Map/Map/assets/Votos.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Map/Map/src/eleicao/ElectionProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Map/Map/src/entities/VoteRegistration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Map/Map/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Map/Map/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Map/Map/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Map/Map/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Map/Map/src/Exemplo1MAP.java" beforeDir="false" afterPath="$PROJECT_DIR$/Map/Map/src/Exemplo1MAP.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,13 +61,14 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "17 (4)",
     "last_directory_selection": "D:/Danilo A. Damasceno/Desktop/JavaScript e JAVA/JAVA/Modulos 17 a 20/Curso-de-JAVA/MÓDULO 19 - Generics , Set e Map/Set/src/application",
-    "last_opened_file_path": "D:/Danilo A. Damasceno/Desktop/JavaScript e JAVA/JAVA/Modulos 17 a 20/Curso-de-JAVA/MÓDULO 19 - Generics , Set e Map",
-    "project.structure.last.edited": "Modules",
+    "last_opened_file_path": "D:/Danilo A. Damasceno/Desktop/JavaScript e JAVA/JAVA/Modulos 17 a 20/Curso-de-JAVA/MÓDULO 19 - Generics , Set e Map/Map",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
+    "project.structure.side.proportion": "0.16697937",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "editor.preferences.gutterIcons"
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.General"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -77,7 +79,20 @@
       <recent name="application" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Exemplo1">
+  <component name="RunManager" selected="Application.ElectionProgram">
+    <configuration name="ElectionProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="eleicao.ElectionProgram" />
+      <module name="Map" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="eleicao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Exemplo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="app.Exemplo1" />
       <module name="Set" />
@@ -91,38 +106,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Exemplo1MAP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exemplo1MAP" />
+      <module name="Map" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ExercicioResolvido1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exemplos.ExercicioResolvido1" />
       <module name="Set" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="exemplos.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HasCodeeEqualsProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="app.HasCodeeEqualsProgram" />
-      <module name="HasCode e Equals" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="app.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TesteIgualdadeSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="app.TesteIgualdadeSet" />
-      <module name="Set" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="app.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ElectionProgram" />
+        <item itemvalue="Application.Exemplo1MAP" />
         <item itemvalue="Application.Exemplo1" />
         <item itemvalue="Application.ExercicioResolvido1" />
         <item itemvalue="Application.TesteIgualdadeTreeSet" />
-        <item itemvalue="Application.TesteIgualdadeSet" />
-        <item itemvalue="Application.HasCodeeEqualsProgram" />
       </list>
     </recent_temporary>
   </component>
