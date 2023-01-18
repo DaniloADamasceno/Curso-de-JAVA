@@ -7,7 +7,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f7eb72f-ac89-4e3d-90bf-cf90a0dadea4" name="Changes" comment=":bento: Exemplo com classe SET" />
+    <list default="true" id="2f7eb72f-ac89-4e3d-90bf-cf90a0dadea4" name="Changes" comment=":bento: Exemplo com classe SET">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Map/Map/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Map/Map/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Map/Map/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Map/Map/.idea/uiDesigner.xml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +26,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
@@ -52,21 +62,24 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_directory_selection": "D:/Danilo A. Damasceno/Desktop/JavaScript e JAVA/JAVA/Modulos 17 a 20/Curso-de-JAVA/MÓDULO 19 - Generics , Set e Map/Set/src/application",
     "last_opened_file_path": "D:/Danilo A. Damasceno/Desktop/JavaScript e JAVA/JAVA/Modulos 17 a 20/Curso-de-JAVA/MÓDULO 19 - Generics , Set e Map",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "settings.editor.selected.configurable": "editor.preferences.gutterIcons"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="application" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ExercicioResolvido1">
-    <configuration name="Exemplo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="app.Exemplo2" />
+  <component name="RunManager" selected="Application.Exemplo1">
+    <configuration name="Exemplo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.Exemplo1" />
       <module name="Set" />
       <extension name="coverage">
         <pattern>
@@ -132,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Exemplo1" />
         <item itemvalue="Application.ExercicioResolvido1" />
         <item itemvalue="Application.TesteIgualdadeTreeSet" />
         <item itemvalue="Application.TesteIgualdadeSet" />
         <item itemvalue="Application.HasCodeeEqualsProgram" />
-        <item itemvalue="Application.Exemplo2" />
       </list>
     </recent_temporary>
   </component>
