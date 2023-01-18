@@ -31,11 +31,11 @@ que ele obteve em uma urna de votação. Você deve fazer um programa para ler o
                 String name = fields[0];                                                                                // Pega o primeiro campo (Nome do Candidato)
                 int cont = Integer.parseInt(fields[1]);                                                             // Pega o segundo campo (Quantidade de Votos)
 
-                if (plateElection.containsKey(name)) {                                                         // Se o nome do candidato já estiver no Map
-                    int contVotos = plateElection.get(name);                                                        // Pega a quantidade de votos já registrados
-                    plateElection.put(name, cont + contVotos);                                                     // Adiciona a quantidade de votos já registrados com a quantidade de votos do candidato
+                if (plateElection.containsKey(name)) {                                                             // Se o nome do candidato já estiver no Map
+                    int contVotos = plateElection.get(name);                                                            // Pega a quantidade de votos já registrados
+                    plateElection.put(name, cont + contVotos);                                                          // Adiciona a quantidade de votos já registrados com a quantidade de votos do candidato
                 } else {
-                    plateElection.put(name, cont);                                                                // Adiciona o candidato no Map
+                    plateElection.put(name, cont);                                                                      // Adiciona o candidato no Map
                 }
                 line = bufferedReader.readLine();                                                                       // Lê a próxima linha
             }
