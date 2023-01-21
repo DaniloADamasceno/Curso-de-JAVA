@@ -1,9 +1,9 @@
 
 # Título do Projeto
 
-Este e um Repositório destinado a Java.
-
- Destinado a colocar em prática os conhecimentos adquiridos em JAVA em módulos.
+<p>Este é um repositório dedicado ao Java, onde você pode colocar em prática os conhecimentos adquiridos em módulos específicos.</p> 
+ <p> Aqui você encontrará projetos, exemplos de código e outros recursos relacionados à programação em Java, organizados em módulos temáticos para facilitar o aprendizado e a prática. </p> 
+  <p>Este repositório é ideal para aqueles que querem aprimorar suas habilidades em Java e se tornar programadores proficientes. <p>
 
     Esta pasta esta destinada aos módulos 17 a 20 e um projeto CRUD Basico.
  
