@@ -1,4 +1,4 @@
-package experienciaComComparator.entities;
+package entities;
 
 public class Product  {
 

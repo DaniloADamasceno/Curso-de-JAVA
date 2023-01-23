@@ -1,7 +1,8 @@
-package experienciaComComparator.application;
+package application;
 
-import experienciaComComparator.entities.Product;
-import experienciaComComparator.entities.myComparator;
+import entities.Product;
+import entities.MyComparator;
+
 
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -21,7 +22,7 @@ public class ProgramComparator {
         //---------------------------------------------------------
 
         //---------------------------------- Implementação da Interface Comparator -------------------------------------
-        list.sort(new myComparator());              // Ordena a lista usando o método compare da classe myComparator
+        list.sort(new MyComparator());              // Ordena a lista usando o método compare da classe myComparator
 
         System.out.println("------>>>   Com a Implementaçao da Classe myComparator:   <<<----------------------------");
         for (Product prod : list) {

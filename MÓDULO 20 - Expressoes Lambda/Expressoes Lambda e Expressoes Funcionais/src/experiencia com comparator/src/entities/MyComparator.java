@@ -1,8 +1,8 @@
-package experienciaComComparator.entities;
+package entities;
 
 import java.util.Comparator;
 
-public class myComparator implements Comparator<Product> {
+public class MyComparator implements Comparator<Product> {
 
     @Override
     public int compare(Product p1, Product p2) {                                    // Recebe dois produtos e compara
