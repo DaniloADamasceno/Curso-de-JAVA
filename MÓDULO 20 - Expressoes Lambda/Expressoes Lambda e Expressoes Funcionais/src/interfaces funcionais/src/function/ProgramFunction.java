@@ -7,6 +7,7 @@ import function.utilFunction.UperCaseName;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
+import java.util.function.Function;
 import java.util.stream.Collectors;
 
 public class ProgramFunction {
@@ -43,7 +44,8 @@ public class ProgramFunction {
 
         //----------------------------------   Expressão Lambda Declarada   --------------------------------------------
         System.out.println("------------   Metodo Lambda Declarada   ------------");
-        List<String> namesLambda =list.stream().map(ProductFunction -> ProductFunction.getName().toUpperCase()).collect(Collectors.toList());
+        Function<ProductFunction, String> functionLambdaDeclarada = p -> p.getName().toUpperCase();
+        List<String> namesLambda =list.stream().map(functionLambdaDeclarada).collect(Collectors.toList());
         namesLambda.forEach(System.out::println);
         System.out.println();
 
