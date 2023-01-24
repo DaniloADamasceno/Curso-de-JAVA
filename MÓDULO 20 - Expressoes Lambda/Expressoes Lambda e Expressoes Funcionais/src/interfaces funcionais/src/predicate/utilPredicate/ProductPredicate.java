@@ -1,12 +1,10 @@
 package predicate.utilPredicate;
 
-import predicate.entitiesPredicate.Product;
-
 import java.util.function.Predicate;
 
-public class ProductPredicate implements Predicate<Product>{
+public class ProductPredicate implements Predicate<predicate.entitiesPredicate.ProductPredicate>{
     @Override
-    public boolean test(Product product) {
+    public boolean test(predicate.entitiesPredicate.ProductPredicate product) {
         return product.getPrice() >= 100;
     }
 }
