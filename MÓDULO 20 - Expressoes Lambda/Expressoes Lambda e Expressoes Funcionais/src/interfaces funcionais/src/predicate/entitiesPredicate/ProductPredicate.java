@@ -1,12 +1,12 @@
 package predicate.entitiesPredicate;
 
-public class Product {
+public class ProductPredicate {
 
     private String name;
     private Double price;
 
     //-------------------------------------  Constructor  ---------------------------------------------
-    public Product(String name, Double price) {
+    public ProductPredicate(String name, Double price) {
         this.name = name;
         this.price = price;
     }
@@ -30,7 +30,7 @@ public class Product {
 
     //!-------------------------------------  Methods  ------------------------------------------------
     // MÉTODO ESTATICO PRECISA DE UM ARGUMENTO PARA SER ATRIBUIDO A UMA VARIAVEL
-    public static boolean staticProductPredicate(Product product) {   // outra forma de fazer o mesmo que o ProductPredicate.java e chamando o metodo statico
+    public static boolean staticProductPredicate(ProductPredicate product) {   // outra forma de fazer o mesmo que o ProductPredicate.java e chamando o metodo statico
         return product.getPrice() >= 100;
     }
 
