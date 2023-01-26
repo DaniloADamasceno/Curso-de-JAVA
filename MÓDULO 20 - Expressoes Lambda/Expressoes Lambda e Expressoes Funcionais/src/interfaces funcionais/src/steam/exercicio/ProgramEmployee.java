@@ -1,6 +1,6 @@
 package steam.exercicio;
 
-import steam.exercicio.entitiesStream.ProductStream;
+import steam.exercicio.entitiesStream.Employee;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -25,14 +25,34 @@ public class ProgramEmployee {
         String path = scanner.nextLine();
 
         try (BufferedReader buffReader = new BufferedReader(new FileReader(path))) {
-            List<ProductStream> list = new ArrayList<>();
+            List<Employee> list = new ArrayList<>();
 
             String line = buffReader.readLine();
             while (line != null) {
-                String[] fields = line.split(",");
-                list.add(new ProductStream(fields[0], Double.parseDouble(fields[1])));
+                String[] fields = line.split(", ");
+                list.add(new Employee(fields[0], fields[1], Double.parseDouble(fields[2])));
                 line = buffReader.readLine();
             }
+
+            System.out.println("Enter reportedSalary:/ Entre com o salário: ");
+            double reportedSalary = scanner.nextDouble();
+
+            System.out.println("Email of people whose reportedSalary is more than / E-mail das pessoas cujo salário informado é superior a:  " + String.format("%.2f", reportedSalary) + ":");
+            list.stream()
+                    .filter(employee -> employee.getSalary() > reportedSalary)
+                    .map(Employee::getEmail)
+                    .sorted()
+                    .forEach(System.out::println);
+
+            System.out.println();                                                                                       // Quebra de linha
+            System.out.println("Sum of salary of people whose name starts with / Soma dos salários das pessoas cujo nome começa com a letra:  'M':");
+
+            double sum = list.stream()
+                    .filter(employee -> employee.getName().charAt(0) == 'S')
+                    .map(Employee::getSalary)
+                    .reduce(0.0, (x, y) -> x + y);
+            System.out.println(String.format("%.2f", sum));
+
 
         } catch (IOException e) {
             System.out.println("🚩🚩Error:  " + e.getMessage());
