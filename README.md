@@ -15,7 +15,7 @@
 
       - [x] Módulo 19 - Generics , SET e MAP.
 
-      - [ ] Módulo 20 - Programação Funcional e Expressões LAMBDA.
+      - [x] Módulo 20 - Programação Funcional e Expressões LAMBDA.
    
 
 
