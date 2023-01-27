@@ -16,6 +16,11 @@
       - [x] Módulo 19 - Generics , SET e MAP.
 
       - [x] Módulo 20 - Programação Funcional e Expressões LAMBDA.
+
+      - [ ] Módulo 21 - Banco de Dados com JDBC.
+      
+      - [ ] Módulo 22 - Java EE JPA / Hibernate.
+      
    
 
 
