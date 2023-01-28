@@ -1,0 +1,7 @@
+user=postegresql
+password=1205
+dburl=jdbc:postgresql://localhost:5432/postgres
+host=localhost
+port=5432
+database=postgres
+useSSL=false
