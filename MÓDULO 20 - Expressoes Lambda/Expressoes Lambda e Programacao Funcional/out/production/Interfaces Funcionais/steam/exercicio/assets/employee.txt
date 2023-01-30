@@ -1,0 +1,10 @@
+Malu, malu@gmail.com, 3500.00
+Snoopy, snoopyLinguinha@gmail.com, 3850.00
+Maggie, maggie@gmail.com, 4000.00
+Frederico, fredericsem@gmail.com, 2980.00
+Nina, nina@gmail.com, 7500.00
+Snow, snow@gmail.com, 2600.00
+Miguel, miguel@gmail.com, 3000.00
+Marghoth, pretinha@gmail.com, 2500.00
+Athila, athila@gmail.com, 3000.00
+Paquita, paquita@gmail.com, 3000.00
