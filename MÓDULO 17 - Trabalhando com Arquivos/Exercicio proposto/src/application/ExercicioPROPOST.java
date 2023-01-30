@@ -63,6 +63,8 @@ public class ExercicioPROPOST {
       }
 
       scan.close();
+    } catch (IOException e) {
+      throw new RuntimeException(e);
     }
     try (BufferedWriter buffWriter = new BufferedWriter(new FileWriter(targetFileString))) {
 
