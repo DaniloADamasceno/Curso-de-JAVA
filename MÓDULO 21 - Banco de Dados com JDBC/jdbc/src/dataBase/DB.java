@@ -1,4 +1,4 @@
-package db;
+package dataBase;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -9,26 +9,26 @@ import java.util.Properties;
 
 public class DB {
 
-    private static Connection conn = null;
+    private static Connection connect = null;
     //----------------------------------------   Methods   -------------------------------------------------------------
-    public static Connection getConnection() {                                          // método para conectar com o banco de dados
-        if (conn == null) {
+    public static Connection getConnection() {                                 // método para conectar com o banco de dados
+        if (connect == null) {
             try {
                 Properties props = loadProperties();                           // pegando as propriedades do arquivo db.properties
                 String url = props.getProperty("dburl");                       // pegando a url do arquivo db.properties
-                conn = DriverManager.getConnection(url, props);          // criando a conexão com o banco de dados
+                connect = DriverManager.getConnection(url, props);       // criando a conexão com o banco de dados
             } catch (SQLException e) {
                 throw new DbException(e.getMessage());
             }
         }
-        return conn;
+        return connect;
     }
 
     private static Properties loadProperties() {  // método para carregar as propriedades do arquivo db.properties
-        try (FileInputStream fs = new FileInputStream("db.properties")) {
-            Properties props = new Properties();
-            props.load(fs);
-            return props;
+        try (FileInputStream fileInpStream = new FileInputStream("D:\\Danilo A. Damasceno\\Desktop\\JavaScript e JAVA\\JAVA\\Modulos 17 a 22\\Curso-de-JAVA\\MÓDULO 21 - Banco de Dados com JDBC\\jdbc\\db.properties")) {
+            Properties propsLoad = new Properties();
+            propsLoad.load(fileInpStream);
+            return propsLoad;
         } catch (IOException err) {
             throw new DbException(err.getMessage());
 
@@ -39,9 +39,9 @@ public class DB {
 
 
     public static void closeConnection() { // método para fechar a conexão com o banco de dados
-        if (conn != null) {
+        if (connect != null) {
             try {
-                conn.close();
+                connect.close();
             } catch (SQLException e) {
                 throw new DbException(e.getMessage());
             }

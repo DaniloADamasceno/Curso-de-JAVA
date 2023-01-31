@@ -1,4 +1,4 @@
-package db;
+package dataBase;
 
 import java.io.Serial;
 
