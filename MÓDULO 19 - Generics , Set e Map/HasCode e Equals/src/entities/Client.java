@@ -4,7 +4,7 @@ import java.util.Objects;
 
 public class Client {
 
-    private String name;
+    private final String name;
     private String email;
 
     //--------------------------------------------- Construtor ------------------------------------------------------

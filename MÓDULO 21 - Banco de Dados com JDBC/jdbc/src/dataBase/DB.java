@@ -2,14 +2,13 @@ package dataBase;
 
 import java.io.FileInputStream;
 import java.io.IOException;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
+import java.sql.*;
 import java.util.Properties;
 
 public class DB {
 
     private static Connection connect = null;
+
     //----------------------------------------   Methods   -------------------------------------------------------------
     public static Connection getConnection() {                                 // método para conectar com o banco de dados
         if (connect == null) {
@@ -35,8 +34,24 @@ public class DB {
         }
     }
 
-
-
+    public static void closeStatment(Statement statement) { // método para fechar o statement
+        if (statement != null) {
+            try {
+                statement.close();
+            } catch (SQLException e) {
+                throw new DbException(e.getMessage());
+            }
+        }
+    }
+    public static void closeResultSet(ResultSet resultSet) { // método para fechar o ResultSet
+        if (resultSet != null) {
+            try {
+                resultSet.close();
+            } catch (SQLException e) {
+                throw new DbException(e.getMessage());
+            }
+        }
+    }
 
     public static void closeConnection() { // método para fechar a conexão com o banco de dados
         if (connect != null) {
@@ -46,8 +61,8 @@ public class DB {
                 throw new DbException(e.getMessage());
             }
         }
-    }
 
+    }
 
 
 }
