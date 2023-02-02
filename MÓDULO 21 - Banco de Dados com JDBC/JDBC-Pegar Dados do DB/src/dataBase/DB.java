@@ -24,13 +24,12 @@ public class DB {
     }
 
     private static Properties loadProperties() {  // método para carregar as propriedades do arquivo db.properties
-        try (FileInputStream fileInpStream = new FileInputStream("D:\\Danilo A. Damasceno\\Desktop\\JavaScript e JAVA\\JAVA\\Modulos 17 a 22\\Curso-de-JAVA\\MÓDULO 21 - Banco de Dados com JDBC\\jdbc\\db.properties")) {
+        try (FileInputStream fileInpStream = new FileInputStream("D:\\Danilo A. Damasceno\\Desktop\\JavaScript e JAVA\\JAVA\\Modulos 17 a 22\\Curso-de-JAVA\\MÓDULO 21 - Banco de Dados com JDBC\\db.properties")) {
             Properties propsLoad = new Properties();
             propsLoad.load(fileInpStream);
             return propsLoad;
         } catch (IOException err) {
             throw new DbException(err.getMessage());
-
         }
     }
 
@@ -43,6 +42,7 @@ public class DB {
             }
         }
     }
+
     public static void closeResultSet(ResultSet resultSet) { // método para fechar o ResultSet
         if (resultSet != null) {
             try {
@@ -61,8 +61,5 @@ public class DB {
                 throw new DbException(e.getMessage());
             }
         }
-
     }
-
-
 }

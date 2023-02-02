@@ -7,14 +7,16 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class JdbcProgram {
+public class ProgramCollectData {
     public static void main(String[] args) {
 
-        System.out.println("Testing connection with database... ");
+        System.out.println("Testing connection with database... COLLLECT DATA");
 
         Connection connect = null;                                          // objeto para conectar com o banco de dados
         Statement statement = null;                                         // objeto para executar comandos SQL
         ResultSet resultSet = null;                                         // objeto para armazenar o resultado de uma consulta SQL
+
+        System.out.println();
 
         try{
             connect = DB.getConnection();                                   // criando a conexão com o banco de dados
