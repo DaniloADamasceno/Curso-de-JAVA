@@ -1,7 +1,6 @@
 package application;
 
 import database.DBDelete;
-import database.DbExceptionDelete;
 import database.DbIntegrityException;
 
 import java.sql.Connection;
@@ -12,12 +11,12 @@ public class ProgramDelete {
     public static void main(String[] args) {
         System.out.println("Testing connection with database... 🚮 JDBC - DELETANDO 🚮 Dados no DB ");
 
-        Connection connUpdate = null;
+        Connection connDelete = null;
         PreparedStatement preStatment = null;
 
         try {
-            connUpdate = DBDelete.getConnection();
-            preStatment = connUpdate.prepareStatement(
+            connDelete = DBDelete.getConnection();
+            preStatment = connDelete.prepareStatement(
                     "DELETE FROM Department "
                             + "WHERE "
                             + "(Id = ?)");
