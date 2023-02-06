@@ -18,7 +18,8 @@ public class ProgramInsertData {
             connect = DBInsert.getConnection();                             // criando a conexão com o banco de dados
             preparedStatement = connect.prepareStatement
                     ("INSERT INTO seller" + "(Name, Email, BirthDate, BaseSalary, DepartmentId)" +
-                            "VALUES" + "(?, ?, ?, ?, ?)");  // criando o objeto para executar comandos SQL
+                            "VALUES" + "(?, ?, ?, ?, ?)",                  // criando o objeto para executar comandos SQL
+                    Statement.RETURN_GENERATED_KEYS);                       // criando o objeto para armazenar o resultado de uma consulta SQL
             preparedStatement.setString(1, "Ralfh");
             preparedStatement.setString(2, "Ralfh@Hotmail.com");
             preparedStatement.setDate(3,
@@ -26,10 +27,19 @@ public class ProgramInsertData {
             preparedStatement.setDouble(4, 3359.9);
             preparedStatement.setInt(5, 3);
 
-            preparedStatement.executeUpdate();                             // executando o comando SQL
+            //preparedStatement.executeUpdate();                             // executando o comando SQL
 
             int changedLines = preparedStatement.executeUpdate();         // executando o comando SQL
-            System.out.println("Rows changed: / Linhas Alteradas: " + changedLines);
+            if(changedLines > 0){
+                ResultSet resultSet = preparedStatement.getGeneratedKeys();
+                while(resultSet.next()){
+                    int id = resultSet.getInt(1);
+                    System.out.println("Done! Id / Pronto ID = " + id);
+                }
+            }
+            else{
+                System.out.println("No lines changed! No ID generated! / Nenhuma linha foi alterada! Nenhum ID foi gerado!");
+            }
 
 
         } catch (SQLException err) {                                       // tratando erros
