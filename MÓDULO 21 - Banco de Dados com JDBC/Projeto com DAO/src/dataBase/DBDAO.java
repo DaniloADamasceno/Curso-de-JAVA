@@ -20,7 +20,7 @@ public class DBDAO {
                 conn = DriverManager.getConnection(url, props);
             }
             catch (SQLException e) {
-                throw new DbException(e.getMessage());
+                throw new DbExceptionDAO(e.getMessage());
             }
         }
         return conn;
