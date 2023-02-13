@@ -23,6 +23,24 @@ public class SellerDaoJDBC implements SellerDao {
     }
 
     //-----------------------------------------------   Methods   ------------------------------------------------------
+
+    private Department instantiateDepartment(ResultSet resultSet) throws SQLException {
+        Department depart = new Department();
+        depart.setId(resultSet.getInt("DepartmentId" ));
+        depart.setName(resultSet.getString("DepName" ));
+        return depart;
+    }
+
+    private Seller instantiateSeller(ResultSet resultSet, Department depart) throws SQLException {
+        Seller sellerObj = new Seller();
+        sellerObj.setId(resultSet.getInt("Id" ));
+        sellerObj.setName(resultSet.getString("Name" ));
+        sellerObj.setEmail(resultSet.getString("Email" ));
+        sellerObj.setBaseSalary(resultSet.getDouble("BaseSalary" ));
+        sellerObj.setBirthDate(resultSet.getDate("BirthDate" ));
+        sellerObj.setDepartment(depart);
+        return sellerObj;
+    }
     @Override
     public void insert(Seller testSeller) {
 
@@ -54,18 +72,8 @@ public class SellerDaoJDBC implements SellerDao {
                 prepStatment.setInt(1, id);
                 resultSet = prepStatment.executeQuery();
                 if (resultSet.next()) {
-                    Department depart = new Department();
-                    depart.setId(resultSet.getInt("DepartmentId" ));
-                    depart.setName(resultSet.getString("DepName" ));
-
-                    Seller sellerObj = new Seller();
-                    sellerObj.setId(resultSet.getInt("Id" ));
-                    sellerObj.setName(resultSet.getString("Name" ));
-                    sellerObj.setEmail(resultSet.getString("Email" ));
-                    sellerObj.setBaseSalary(resultSet.getDouble("BaseSalary" ));
-                    sellerObj.setBirthDate(resultSet.getDate("BirthDate" ));
-
-                    sellerObj.setDepartment(depart);
+                    Department depart = instantiateDepartment(resultSet);
+                    Seller sellerObj = instantiateSeller(resultSet, depart);
                     return sellerObj;
                 }
                 return null;
