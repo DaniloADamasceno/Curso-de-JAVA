@@ -1,5 +1,6 @@
 package model.dao;
 
+import dataBase.DBDAO;
 import model.dao.implement.SellerDaoJDBC;
 
 import java.sql.Connection;
@@ -7,7 +8,6 @@ import java.sql.Connection;
 public class DaoFactory {
 
     public static SellerDao createSellerDao() {
-        Connection connDao;
-        return new SellerDaoJDBC(connDao);
+        return new SellerDaoJDBC(DBDAO.getConnection());
     }
 }

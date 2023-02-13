@@ -31,6 +31,14 @@ public class ProgramDAO {
 
         SellerDao sellerDao = DaoFactory.createSellerDao(); // chamo o método estático createSellerDao() da classe DaoFactory e não da classe SellerDaoJDBC
         System.out.println(testSeller);
+
+        System.out.println();
+        sellerDao = DaoFactory.createSellerDao();
+        Seller seller = sellerDao.findById(42);   // “IDs” entre 40 e 60 são os que estão no banco de dados
+        System.out.println("<<<<<<<<<<<<<<< TEST : seller findById >>>>>>>>>>>>>");
+        System.out.println();
+        System.out.println(seller);
+
     }
 
 
