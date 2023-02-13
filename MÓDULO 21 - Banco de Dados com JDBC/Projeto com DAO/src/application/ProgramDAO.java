@@ -8,6 +8,7 @@ import model.entities.Seller;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.List;
 import java.util.Locale;
 
 public class ProgramDAO {
@@ -38,6 +39,13 @@ public class ProgramDAO {
         System.out.println(seller);
         System.out.println();
 
+        System.out.println("<<<<<<<<<< Teste Seller  / FindByDepartment >>>>>>>>>>");
+        Department department = new Department(3, null);
+        List<Seller> list = sellerDao.findByDepartment(department);
+        for (Seller objDepartment : list) {
+            System.out.println(objDepartment);
+        }
+        System.out.println();
     }
 
 
