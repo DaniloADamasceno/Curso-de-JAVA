@@ -3,6 +3,7 @@ package model.entities;
 import java.io.Serial;
 import java.io.Serializable;
 import java.util.Date;
+import java.util.StringJoiner;
 
 public class Seller implements Serializable {
 
@@ -80,14 +81,17 @@ public class Seller implements Serializable {
 
     @Override
     public String toString() {
-        return "Seller/ Vendedor [" +
-                "id=" + id +
-                ", name/nome ='" + name + '\'' +
-                ", email='" + email + '\'' +
-                ", baseSalary/salario =" + baseSalary +
-                ", birthDate/data de nascimento=" + birthDate +
-                ", department =" + department;
+        return " ---------- >>>   VENDEDOR:   <<< ---------- " + "\n" +
+                "ID=" + id +
+                "   NOME =" + name  +
+                "   E-MAIL =" + email + '\n' +
+                "   SALÁRIO =" + baseSalary +
+                "   DATA DE NASCIMENTO =" + birthDate +
+                department;
     }
+
+
+
 
     //--------------------------------------------  hashCode and equals   ----------------------------------------------
 

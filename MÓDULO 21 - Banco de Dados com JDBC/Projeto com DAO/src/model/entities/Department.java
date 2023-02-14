@@ -21,6 +21,7 @@ public class Department implements Serializable {
     //--------------------------------------------  Getters and Setters   ----------------------------------------------
     public Integer getId() {
         return id;
+
     }
 
     public void setId(Integer id) {
@@ -39,10 +40,10 @@ public class Department implements Serializable {
 
     @Override
     public String toString() {
-        return "Department/Departamento [" +
-                "id=" + id +
-                ", name/nome='" + name + '\'' +
-                ']';
+        return "   DEPARTAMENTO <<" +
+                "   ID-Dep.=" + id +
+                "   NOME-Dep.=" + name +
+                "   >>";
     }
 
     //--------------------------------------------  hashCode and equals   ----------------------------------------------

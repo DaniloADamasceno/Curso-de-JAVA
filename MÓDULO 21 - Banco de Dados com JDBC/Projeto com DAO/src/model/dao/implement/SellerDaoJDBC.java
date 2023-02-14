@@ -48,6 +48,43 @@ public class SellerDaoJDBC implements SellerDao {
     @Override
     public void insert(Seller testSeller) {
 
+        PreparedStatement prepStatment = null;
+
+        try {
+            try {
+                prepStatment = connDao.prepareStatement(
+                        "INSERT INTO seller "
+                                + "(Name, Email, BirthDate, BaseSalary, DepartmentId) "
+                                + "VALUES "
+                                + "(?, ?, ?, ?, ?)",
+                        PreparedStatement.RETURN_GENERATED_KEYS);
+
+                prepStatment.setString(1, testSeller.getName());
+                prepStatment.setString(2, testSeller.getEmail());
+                prepStatment.setDate(3, new java.sql.Date(testSeller.getBirthDate().getTime()));
+                prepStatment.setDouble(4, testSeller.getBaseSalary());
+                prepStatment.setInt(5, testSeller.getDepartment().getId());
+
+                int numberLines = prepStatment.executeUpdate();
+
+                if (numberLines > 0) {
+                    ResultSet resultSet = prepStatment.getGeneratedKeys();
+
+                    if (resultSet.next()) {
+                        int id = resultSet.getInt(1);
+                        testSeller.setId(id);
+                    }
+                    DBDAO.closeResultSet(resultSet);  // fechando o resultSet
+                } else {
+                    throw new DbExceptionDAO("Unexpected error! No rows affected! / NENHUMA LINHA FOI AFETADA!");
+                }
+
+            } catch (SQLException errInsert) {
+                throw new DbExceptionDAO(errInsert.getMessage());
+            }
+        } finally {
+            DBDAO.closeStatement(prepStatment);
+        }
     }
 
     @Override
@@ -100,8 +137,9 @@ public class SellerDaoJDBC implements SellerDao {
                     "SELECT seller.*, department.Name as DepName "
                             + "FROM seller INNER JOIN department "
                             + "ON seller.DepartmentId = department.Id "
-                            + "WHERE seller.Id = ?"
+                            + "WHERE DepartmentId = ? "
                             + "ORDER BY Name" );
+
             prepStatment.setInt(1, department.getId());
             resultSet = prepStatment.executeQuery();
 
@@ -109,12 +147,13 @@ public class SellerDaoJDBC implements SellerDao {
             Map<Integer, Department> map = new HashMap<>();
 
             while (resultSet.next()) {
-                Department depart = map.get(resultSet.getInt("DepartmentId" ));
-                if (depart == null) {
-                    depart = instantiateDepartment(resultSet);
-                    map.put(resultSet.getInt("DepartmentId" ), depart);
+                Department departFindAll = map.get(resultSet.getInt("DepartmentId" ));
+
+                if (departFindAll == null) {
+                    departFindAll = instantiateDepartment(resultSet);
+                    map.put(resultSet.getInt("DepartmentId" ), departFindAll);
                 }
-                Seller sellerObj = instantiateSeller(resultSet, depart);
+                Seller sellerObj = instantiateSeller(resultSet, departFindAll);
                 listByDepartment.add(sellerObj);
             }
             return listByDepartment;
@@ -130,10 +169,39 @@ public class SellerDaoJDBC implements SellerDao {
 
     @Override
     public List<Seller> findAll() {
+        PreparedStatement prepStatment = null;
+        ResultSet resultSet = null;
+        try {
+            prepStatment = connDao.prepareStatement(
+                    "SELECT seller.*,department.Name as DepName  "
+                            + "FROM seller INNER JOIN department "
+                            + "ON seller.DepartmentId = department.Id "
+                            + "ORDER BY Name");
 
 
-        return null;
+            resultSet = prepStatment.executeQuery();
+
+            List<Seller> listByDepartment = new ArrayList<>();
+            Map<Integer, Department> map = new HashMap<>();
+
+            while (resultSet.next()) {
+                Department depart = map.get(resultSet.getInt("DepartmentId" ));
+                if (depart == null) {
+                    depart = instantiateDepartment(resultSet);
+                    map.put(resultSet.getInt("DepartmentId" ), depart);
+                }
+                Seller sellerObj = instantiateSeller(resultSet, depart);
+                listByDepartment.add(sellerObj);
+            }
+            return listByDepartment;
+        } catch (SQLException errDepartment) {
+            throw new DbExceptionDAO(errDepartment.getMessage());
+
+        } finally {
+            DBDAO.closeStatement(prepStatment);
+            DBDAO.closeResultSet(resultSet);
+        }
+
+
     }
-
-
 }
