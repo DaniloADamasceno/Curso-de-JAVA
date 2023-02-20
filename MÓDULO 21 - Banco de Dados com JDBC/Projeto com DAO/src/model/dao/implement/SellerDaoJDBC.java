@@ -76,7 +76,7 @@ public class SellerDaoJDBC implements SellerDao {
                     }
                     DBDAO.closeResultSet(resultSet);  // fechando o resultSet
                 } else {
-                    throw new DbExceptionDAO("Unexpected error! No rows affected! / NENHUMA LINHA FOI AFETADA!");
+                    throw new DbExceptionDAO(" ⛔ Unexpected error! No rows affected! / NENHUMA LINHA FOI AFETADA! ⛔");
                 }
 
             } catch (SQLException errInsert) {
@@ -121,6 +121,26 @@ public class SellerDaoJDBC implements SellerDao {
 
     @Override
     public void deleteById(Integer id) { //------------------------  DELETE  -------------------------------------------
+
+        PreparedStatement prepStatment = null;
+
+        try {
+            prepStatment = connDao.prepareStatement(
+                    "DELETE FROM seller "
+                            + " WHERE Id = ? ");
+            prepStatment.setInt(1, id);
+             int deletedRows = prepStatment.executeUpdate();
+
+                if (deletedRows == 0) {
+                    throw new DbExceptionDAO("⛔ Id not found! / ID NÃO ENCONTRADO! ⛔");
+                }
+
+        } catch (SQLException errDelete) {
+            throw new RuntimeException(errDelete);
+        } finally {
+            DBDAO.closeStatement(prepStatment);
+
+        }
 
     }
 
