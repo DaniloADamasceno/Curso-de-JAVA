@@ -88,6 +88,28 @@ public class ProgramDAO {
         System.out.println();
         System.out.println("*****************************************************************************************");
 
+//-----------------------------------   Teste de Atualização de Dados   ------------------------------------------------
+        System.out.println("<<<<<<<<<< Teste Seller  / UPDATE >>>>>>>>>>");
+
+        Date formatDateKey = sdf.parse("19/05/1997");
+        Department departmentKey = new Department(4, null);
+
+        seller = sellerDao.findById(57);
+        seller.setName("Key Atualizada");
+        seller.setEmail("keyUpdate@hotmail.com");
+        seller.setBirthDate(formatDateKey);
+        seller.setBaseSalary(3789.78);
+        seller.setDepartment(departmentKey);
+        sellerDao.update(seller);
+
+        System.out.println("Update completed! / Atualização concluída!");
+        System.out.println();
+        System.out.println(seller.getId() + " -- " + seller.getName() + " \n " + seller.getEmail()
+                 + " -- " + seller.getBirthDate() + " \n " + seller.getBaseSalary() + " - "
+                 + seller.getDepartment().getName());
+        System.out.println();
+        System.out.println("*****************************************************************************************");
+
 
 
 
