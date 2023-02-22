@@ -16,16 +16,15 @@ public class ProgramDepartmentDao {
         DepartmentDao departmentDao = DaoFactory.createDepartmentDao(); // chamo o método estático createSellerDao() da classe DaoFactory e não da classe SellerDaoJDBC
 
         Scanner scan = new Scanner(System.in);
+
         Locale.setDefault(Locale.US);
-        //SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
-        //Date formatDate = sdf.parse("16/06/2016");
 
 
         System.out.println("<<<<<<<<<<< ####### Area de Testes - Program DEPARTMENT Dao.java ####### >>>>>>>>>>>>>>>>");
         System.out.println();
         System.out.println();
         System.out.println();
-/*
+
         //-----------------------------------   Teste de inserção de Dados   -------------------------------------------
         System.out.println("<<<<<<<<<< Teste Department  / INSERT >>>>>>>>>>");
         Department testDepartment = new Department(null, "Chinese Spices");
@@ -45,23 +44,26 @@ public class ProgramDepartmentDao {
         //-----------------------------------   Teste de Atualização de Dados   ----------------------------------------
 
         System.out.println("<<<<<<<<<< Teste Department  / UPDATE >>>>>>>>>>");
-        Department departmentNew = new Department(10, null);
+        Department departmentNew1 = new Department();
+        Department departmentNew2 = new Department();
 
-        departmentNew = departmentDao.findById(9);
-        departmentNew.setName("Peripherals");
+        departmentNew1 = departmentDao.findById(6);
+        departmentNew1.setName("Internet of Things");
+
+        departmentNew2 = departmentDao.findById(7);
+        departmentNew2.setName("Marketing");
 
         System.out.println("⚠️✅Update completed! / Atualização concluída!⚠️✅");
         System.out.println();
-        System.out.println(departmentNew.getId() + " -- " + departmentNew.getName());
+        System.out.println(departmentNew1.getId() + " -- " + departmentNew1.getName());
+        System.out.println(departmentNew2.getId() + " -- " + departmentNew2.getName());
 
         System.out.println();
         System.out.println("*****************************************************************************************");
 
- */
-
 
         //-----------------------------------   Busca por nome com retorno de lista   ----------------------------------
-        System.out.println("<<<<<<<<<< Teste Seller  / FindALL >>>>>>>>>>");
+        System.out.println("<<<<<<<<<< Teste Department  / FindALL >>>>>>>>>>");
         List<Department> listAll = departmentDao.findAll();
         for (Department findAll : listAll) {
             System.out.println(findAll);
@@ -71,19 +73,21 @@ public class ProgramDepartmentDao {
         System.out.println("*****************************************************************************************");
 
 
-
-
         //-----------------------------------   Teste de exclusão de Dados   -------------------------------------------
         System.out.println("<<<<<<<<<< Teste Seller  / DELETE >>>>>>>>>>");
 
+        System.out.println("Enter id for delete test: ");
+        int id = scan.nextInt();
+        departmentDao.deleteById(id);
+        System.out.println("⚠️✅Delete completed! / Exclusão concluída!⚠️✅");
+        System.out.println();
 
         System.out.println();
         System.out.println("*****************************************************************************************");
 
-
         scan.close();
-    }
 
+    }
 
 }
 
