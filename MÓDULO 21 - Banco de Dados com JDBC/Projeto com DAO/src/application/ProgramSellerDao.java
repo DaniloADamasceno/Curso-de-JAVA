@@ -24,7 +24,7 @@ public class ProgramSellerDao {
         Date formatDate = sdf.parse("16/06/2016");
 
 
-        System.out.println("<<<<<<<<<<<<<<<<<<<< ####### Area de Testes - ProgramDAO.java ####### >>>>>>>>>>>>>>>>>>>>");
+        System.out.println("<<<<<<<<<<<<<<<<<<<< ####### Area de Testes - Program Seller DAO.java ####### >>>>>>>>>>>>>>>>>>>>");
         System.out.println();
         System.out.println();
         System.out.println();
