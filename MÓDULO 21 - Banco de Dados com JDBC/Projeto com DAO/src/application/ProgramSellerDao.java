@@ -68,7 +68,7 @@ public class ProgramSellerDao {
 
 
         //-----------------------------------   Busca por nome com retorno de lista   ----------------------------------
-        System.out.println("<<<<<<<<<< Teste Seller  / FindALL >>>>>>>>>>");
+        System.out.println("<<<<<<<<<< Teste Seller  /  FindALL >>>>>>>>>>");
         List<Seller> listAll = sellerDao.findAll();
         for (Seller objAll : listAll) {
             System.out.println(objAll);
@@ -78,7 +78,7 @@ public class ProgramSellerDao {
 
 
         //-----------------------------------   Teste de inserção de Dados   -------------------------------------------
-        System.out.println("<<<<<<<<<< Teste Seller  / INSERT >>>>>>>>>>");
+        System.out.println("<<<<<<<<<< Teste Seller  /  INSERT >>>>>>>>>>");
 
         Date formatDateGreg = sdf.parse("15/01/1975");
         Department departmentGreg = new Department(4, null);
@@ -101,7 +101,7 @@ public class ProgramSellerDao {
 
         //-----------------------------------   Teste de Atualização de Dados   ----------------------------------------
 
-        System.out.println("<<<<<<<<<< Teste Seller  / UPDATE >>>>>>>>>>");
+        System.out.println("<<<<<<<<<< Teste Seller  /  UPDATE >>>>>>>>>>");
 
         Date formatDateKey = sdf.parse("15/08/1996");
         Department departmentKey = new Department(3, null);
@@ -114,7 +114,7 @@ public class ProgramSellerDao {
         seller.setDepartment(departmentKey);
         sellerDao.update(seller);
 
-        System.out.println("Update completed! / Atualização concluída!");
+        System.out.println("⚠️✅Update completed! /  Atualização concluída!⚠️✅");
         System.out.println();
         System.out.println(seller.getId() + " -- " + seller.getName() + " \n " + seller.getEmail()
                 + " -- " + seller.getBirthDate() + " \n " + seller.getBaseSalary() + " - "
@@ -123,12 +123,12 @@ public class ProgramSellerDao {
         System.out.println("*****************************************************************************************");
 
         //-----------------------------------   Teste de exclusão de Dados   -------------------------------------------
-        System.out.println("<<<<<<<<<< Teste Seller  / DELETE >>>>>>>>>>");
+        System.out.println("<<<<<<<<<< Teste Seller  /  DELETE >>>>>>>>>>");
 
         System.out.println("Enter id for delete test: ");
         int id = scan.nextInt();
         sellerDao.deleteById(id);
-        System.out.println("Delete completed! / Exclusão concluída!");
+        System.out.println("⚠️✅Delete completed! / Exclusão concluída!⚠️✅");
         System.out.println();
         System.out.println("*****************************************************************************************");
 

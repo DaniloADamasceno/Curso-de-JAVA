@@ -5,6 +5,7 @@ import model.dao.DepartmentDao;
 import model.entities.Department;
 
 import java.text.ParseException;
+import java.util.List;
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -58,16 +59,14 @@ public class ProgramDepartmentDao {
 
  */
 
-        //-----------------------------------   Busca por departamento com retorno de lista   --------------------------
-        System.out.println("<<<<<<<<<< Teste Seller  / FindByDepartment >>>>>>>>>>");
-
-        System.out.println();
-        System.out.println("*****************************************************************************************");
-
 
         //-----------------------------------   Busca por nome com retorno de lista   ----------------------------------
         System.out.println("<<<<<<<<<< Teste Seller  / FindALL >>>>>>>>>>");
-
+        List<Department> listAll = departmentDao.findAll();
+        for (Department findAll : listAll) {
+            System.out.println(findAll);
+        }
+        System.out.println();
         System.out.println();
         System.out.println("*****************************************************************************************");
 
