@@ -17,9 +17,9 @@
 
       - [x] Módulo 20 - Programação Funcional e Expressões LAMBDA.
 
-      - [ ] Módulo 21 - Banco de Dados com JDBC.
+      - [x] Módulo 21 - Banco de Dados com JDBC.
       
-      - [ ] Módulo 22 - Java EE JPA / Hibernate.
+      - [x] Módulo 22 - Java EE JPA / Hibernate.
       
    
 
