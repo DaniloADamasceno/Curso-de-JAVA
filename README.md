@@ -1,7 +1,7 @@
 
 # Título do Projeto
 
-![GitHub repo size](https://img.shields.io/github/repo-size/DaniloADamasceno/Curso-de-JAVA=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/DaniloADamasceno/Curso-de-JAVA?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/DaniloADamasceno/Curso-de-JAVA?style=for-the-badge)
 
 
