@@ -106,11 +106,11 @@ public class ProgramSellerDao {
         Date formatDateKey = sdf.parse("15/08/1996");
         Department departmentKey = new Department(3, null);
 
-        seller = sellerDao.findById(57);
+        seller = sellerDao.findById(76);
         seller.setName("Key Atualizada");
         seller.setEmail("keyUpdate@hotmail.com");
         seller.setBirthDate(formatDateKey);
-        seller.setBaseSalary(3789.78);
+        seller.setBaseSalary(4789.78);
         seller.setDepartment(departmentKey);
         sellerDao.update(seller);
 
