@@ -4,6 +4,8 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/DaniloADamasceno/Curso-de-JAVA?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/DaniloADamasceno/Curso-de-JAVA?style=for-the-badge)
 
+[![wakatime](https://wakatime.com/badge/user/e7f2e494-878d-4290-9a2b-cc473da48b8a/project/e88985b4-8245-413f-9f38-e22a5fec5ee6.svg)](https://wakatime.com/badge/user/e7f2e494-878d-4290-9a2b-cc473da48b8a/project/e88985b4-8245-413f-9f38-e22a5fec5ee6)
+
 
 <p>Este é um repositório dedicado ao Java, onde você pode colocar em prática os conhecimentos adquiridos em módulos específicos.</p> 
  <p> Aqui você encontrará projetos, exemplos de código e outros recursos relacionados à programação em Java, organizados em módulos temáticos para facilitar o aprendizado e a prática. </p> 
