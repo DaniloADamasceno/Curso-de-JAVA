@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Curso-de-JAVA.iml" filepath="$PROJECT_DIR$/.idea/Curso-de-JAVA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../Módulo 23- Web Service com Spring Boot - JPA e Hibernate/Web-Service-com-Spring-Boot-JPA-e-Hibernate/Projeto WEB SERVICES/src/main/main.iml" filepath="$PROJECT_DIR$/../../Módulo 23- Web Service com Spring Boot - JPA e Hibernate/Web-Service-com-Spring-Boot-JPA-e-Hibernate/Projeto WEB SERVICES/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MÓDULO 22 - Java EE/Nivelamento Maven/mavenProject.iml" filepath="$PROJECT_DIR$/MÓDULO 22 - Java EE/Nivelamento Maven/mavenProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../Módulo 23- Web Service com Spring Boot - JPA e Hibernate/Web-Service-com-Spring-Boot-JPA-e-Hibernate/Projeto WEB SERVICES/src/test/test.iml" filepath="$PROJECT_DIR$/../../Módulo 23- Web Service com Spring Boot - JPA e Hibernate/Web-Service-com-Spring-Boot-JPA-e-Hibernate/Projeto WEB SERVICES/src/test/test.iml" />
+    </modules>
+  </component>
+</project>
