@@ -306,3 +306,5 @@ README.html
 .exercism
 
 !/GitCommitEmoji.md
+!/.idea/
+!/.vscode/
