@@ -306,4 +306,7 @@ README.html
 .exercism
 
 !/GitCommitEmoji.md
+<<<<<<< HEAD
 !/.idea/
+=======
+>>>>>>> origin/main
