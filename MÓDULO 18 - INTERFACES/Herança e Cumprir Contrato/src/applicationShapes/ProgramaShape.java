@@ -1,11 +1,11 @@
-package application_Shapes;
+package applicationShapes;
 
-import model_shapes.entities_Shapes.Circle;
-import model_shapes.entities_Shapes.FormAbstract;
-import model_shapes.entities_Shapes.Rectangle;
-import model_shapes.enums_shapes.Color;
+import modelShapes.entitiesShapes.Circle;
+import modelShapes.entitiesShapes.FormAbstract;
+import modelShapes.entitiesShapes.Rectangle;
+import modelShapes.enums_shapes.Color;
 
-public class Programa_Shape {
+public class ProgramaShape {
 
   public static void main(String[] args)  {
     System.out.println("Hello, World!");

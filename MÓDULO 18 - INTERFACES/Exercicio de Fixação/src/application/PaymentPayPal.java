@@ -11,7 +11,7 @@ import service.ContractService;
 //import service.Online_Payment_Service;
 import service.Paypal_Service;
 
-public class Payment_PayPal {
+public class PaymentPayPal {
 
   public static void main(String[] args) throws ParseException {
     /*

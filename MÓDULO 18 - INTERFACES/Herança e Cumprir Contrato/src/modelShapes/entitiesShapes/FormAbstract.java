@@ -1,6 +1,6 @@
-package model_shapes.entities_Shapes;
+package modelShapes.entitiesShapes;
 
-import model_shapes.enums_shapes.Color;
+import modelShapes.enums_shapes.Color;
 
 public abstract class FormAbstract implements Shape {
     

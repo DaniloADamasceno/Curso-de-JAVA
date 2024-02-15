@@ -1,4 +1,4 @@
-package model_shapes.entities_Shapes;
+package modelShapes.entitiesShapes;
 
 
 public interface Shape {

@@ -1,4 +1,4 @@
-package model_shapes.enums_shapes;
+package modelShapes.enums_shapes;
 
 public enum Color {
   
