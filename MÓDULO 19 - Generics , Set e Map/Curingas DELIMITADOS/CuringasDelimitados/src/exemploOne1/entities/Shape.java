@@ -1,4 +1,4 @@
-package exemplo1.entities;
+package exemploOne1.entities;
 
 public interface Shape {
 

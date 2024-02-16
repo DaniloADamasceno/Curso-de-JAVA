@@ -4,32 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43d6094b-0a85-4493-b988-036b9277e3a7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/active-tab-highlighter.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Default Methods/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Default Methods/src/application/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/Default Methods/src/application/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Default Methods/src/services/InterestService_INTER.java" beforeDir="false" afterPath="$PROJECT_DIR$/Default Methods/src/services/InterestService_INTER.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercicio de Fixação/src/application/Payment_PayPal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exercicio de Fixação/src/application/PaymentPayPal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercicio de Fixação/src/entities/Contract.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exercicio de Fixação/src/entities/Contract.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercicio de Fixação/src/entities/Parcelas.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exercicio de Fixação/src/entities/Parcelas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Herança e Cumprir Contrato/src/application_Shapes/Programa_Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/Herança e Cumprir Contrato/src/applicationShapes/ProgramaShape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Herança e Cumprir Contrato/src/model_shapes/entities_Shapes/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Herança e Cumprir Contrato/src/modelShapes/entitiesShapes/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Herança e Cumprir Contrato/src/model_shapes/entities_Shapes/FormAbstract.java" beforeDir="false" afterPath="$PROJECT_DIR$/Herança e Cumprir Contrato/src/modelShapes/entitiesShapes/FormAbstract.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Herança e Cumprir Contrato/src/model_shapes/entities_Shapes/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Herança e Cumprir Contrato/src/modelShapes/entitiesShapes/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Herança e Cumprir Contrato/src/model_shapes/entities_Shapes/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/Herança e Cumprir Contrato/src/modelShapes/entitiesShapes/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Herança e Cumprir Contrato/src/model_shapes/enums_shapes/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/Herança e Cumprir Contrato/src/modelShapes/enums_shapes/Color.java" afterDir="false" />
-    </list>
+    <list default="true" id="43d6094b-0a85-4493-b988-036b9277e3a7" name="Changes" comment=":recycle: Refatoração Módulo 18" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GitToolBoxStore">
@@ -70,6 +57,10 @@
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/home/danilo-linux/Área de Trabalho/Curso de JAVA /Curso-de-JAVA/Módulo 18 - INTERFACES",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "reference.settingsdialog.project.grazie",
     "vue.rearranger.settings.migration": "true"
@@ -115,8 +106,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671478152710</updated>
-      <workItem from="1708016331919" duration="287000" />
+      <workItem from="1708016331919" duration="396000" />
     </task>
+    <task id="LOCAL-00001" summary=":recycle: Refatoração Módulo 18">
+      <option name="closed" value="true" />
+      <created>1708016643301</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1708016643301</updated>
+    </task>
+    <task id="LOCAL-00002" summary=":recycle: Refatoração Módulo 18">
+      <option name="closed" value="true" />
+      <created>1708016703961</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1708016703961</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +132,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value=":recycle: .ignore" />
+    <MESSAGE value=":recycle: Refatoração Módulo 18" />
+    <option name="LAST_COMMIT_MESSAGE" value=":recycle: Refatoração Módulo 18" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

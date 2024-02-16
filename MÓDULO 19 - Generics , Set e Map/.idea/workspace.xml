@@ -7,7 +7,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f7eb72f-ac89-4e3d-90bf-cf90a0dadea4" name="Changes" comment=":tada: Finalizado o conteudo modulo 19" />
+    <list default="true" id="2f7eb72f-ac89-4e3d-90bf-cf90a0dadea4" name="Changes" comment=":tada: Finalizado o conteudo modulo 19">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/active-tab-highlighter.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MÓDULO 18 - INTERFACES/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../MÓDULO 18 - INTERFACES/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MÓDULO 20 - Expressoes Lambda/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../MÓDULO 20 - Expressoes Lambda/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MÓDULO 21 - Banco de Dados com JDBC/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../MÓDULO 21 - Banco de Dados com JDBC/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MÓDULO 22 - Java EE/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../MÓDULO 22 - Java EE/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Módulo 18 - INTERFACES/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Módulo 18 - INTERFACES/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,6 +37,13 @@
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
   </component>
+  <component name="GithubProjectSettings">
+    <option name="branchProtectionPatterns">
+      <list>
+        <option value="main" />
+      </list>
+    </option>
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/HasCode e Equals/src/entities/Client.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Set/src/app/TesteIgualdadeSet.java" root0="FORCE_HIGHLIGHTING" />
@@ -36,6 +54,12 @@
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
   <component name="ProjectId" id="2KBxNVUBw0ozg5LLAL665kN02EJ" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -47,20 +71,31 @@
     <option name="showMembers" value="true" />
     <option name="showVisibilityIcons" value="true" />
     <option name="sortByType" value="true" />
+    <option name="sortKey" value="BY_TYPE" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Program.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "17 (4)",
+    "kotlin-language-version-configured": "true",
     "last_directory_selection": "D:/Danilo A. Damasceno/Desktop/JavaScript e JAVA/JAVA/Modulos 17 a 20/Curso-de-JAVA/MÓDULO 19 - Generics , Set e Map/Set/src/application",
     "last_opened_file_path": "D:/Danilo A. Damasceno/Desktop/JavaScript e JAVA/JAVA/Modulos 17 a 20/Curso-de-JAVA",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.16697937",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.General"
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.General",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -71,7 +106,7 @@
       <recent name="application" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ElectionProgram">
+  <component name="RunManager" selected="Application.GenericsDelimitados">
     <configuration name="ElectionProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="eleicao.ElectionProgram" />
       <module name="Map" />
@@ -105,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExercicioResolvido1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exemplos.ExercicioResolvido1" />
-      <module name="Set" />
+    <configuration name="GenericsDelimitados" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Generics.app_Gene.GenericsDelimitados" />
+      <module name="Generics Delimitados" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exemplos.*" />
+          <option name="PATTERN" value="Generics.app_Gene.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +153,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteIgualdadeTreeSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="app.TesteIgualdadeTreeSet" />
-      <module name="Set" />
+    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exemploOne1.application.Program" />
+      <module name="Curingas DELIMITADOS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="app.*" />
+          <option name="PATTERN" value="exemploOne1.application.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GenericsDelimitados" />
+        <item itemvalue="Application.Program" />
         <item itemvalue="Application.ElectionProgram" />
         <item itemvalue="Application.Exemplo1MAP" />
         <item itemvalue="Application.Exemplo1" />
-        <item itemvalue="Application.ExercicioResolvido1" />
-        <item itemvalue="Application.TesteIgualdadeTreeSet" />
       </list>
     </recent_temporary>
   </component>
@@ -149,6 +184,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673461741556</updated>
+      <workItem from="1708089402309" duration="451000" />
     </task>
     <task id="LOCAL-00001" summary=":wrench: HasCode e Equals 1.0">
       <created>1673482482282</created>
@@ -194,6 +230,9 @@
     </task>
     <option name="localTasksCounter" value="7" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
     <option name="UPDATE_COPYRIGHT" value="true" />

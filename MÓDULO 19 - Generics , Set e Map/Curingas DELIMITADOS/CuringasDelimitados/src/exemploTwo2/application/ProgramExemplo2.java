@@ -1,8 +1,8 @@
-package exemplo2.application2;
+package exemploTwo2.application;
 
-import java.util.ArrayList;                                          // Importa a classe ArrayList
-import java.util.Arrays;                                             // Importa a classe Arrays
-import java.util.List;                                               // Importa a classe List
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public class ProgramExemplo2 {
 

@@ -1,12 +1,12 @@
 
-package exemplo1.application;
+package exemploOne1.application;
+
+import exemploOne1.entities.Circle;
+import exemploOne1.entities.Rectangle;
+import exemploOne1.entities.Shape;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import exemplo1.entities.Circle;
-import exemplo1.entities.Rectangle;
-import exemplo1.entities.Shape;
 
 public class Program {
 

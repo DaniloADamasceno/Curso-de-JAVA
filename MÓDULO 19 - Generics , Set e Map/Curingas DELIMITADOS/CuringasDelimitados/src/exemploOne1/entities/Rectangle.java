@@ -1,20 +1,16 @@
-package exemplo1.entities;
+package exemploOne1.entities;
 
 public class Rectangle implements Shape {
     private double width;
     private double height;
 
-    //------------------------------------
-    //      Contrutores
-    //------------------------------------
+    //! --------------------------------------------      Construtores      --------------------------------------------
     public Rectangle(double width, double height) {
         this.width = width;
         this.height = height;
     }
 
-    //------------------------------------
-    //      Getters and Setters
-    //------------------------------------
+    //! -----------------------------------------      Getters and Setters      ----------------------------------------
     public double getWidth() {
         return width;
     }
@@ -31,9 +27,7 @@ public class Rectangle implements Shape {
         this.height = height;
     }
 
-    //------------------------------------
-    //      Metodos
-    //------------------------------------
+    //! -------------------------------------------------      Métodos      --------------------------------------------
     public double area() {
         return width * height;
     }
