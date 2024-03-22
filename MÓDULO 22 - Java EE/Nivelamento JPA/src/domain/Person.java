@@ -1,16 +1,18 @@
 package domain;
 
+import java.io.Serial;
 import java.io.Serializable;
 
 public class Person implements Serializable {
 
+    @Serial
     private static final long serialVersionUID = 1L;
 
     private Integer id;
     private String name;
     private String email;
 
-    //-------------------------------------------------   Constructors   -----------------------------------------------
+    //!-------------------------------------------------   Constructors   ---------------------------------------------
     public Person() {
     }
 
@@ -19,7 +21,7 @@ public class Person implements Serializable {
         this.name = name;
         this.email = email;
     }
-    //-------------------------------------------------   Getters and Setters   ----------------------------------------
+    //!-------------------------------------------------   Getters and Setters   ---------------------------------------
     public Integer getId() {
         return id;
     }
@@ -44,7 +46,7 @@ public class Person implements Serializable {
         this.email = email;
     }
 
-    //-------------------------------------------------   ToString   ---------------------------------------------------
+    //!-------------------------------------------------   ToString   ---------------------------------------------------
     @Override
     public String toString() {
         return "Person >>>  ID= #" + id + "    NAME= " + name +  "         E-MAIL= " + email;

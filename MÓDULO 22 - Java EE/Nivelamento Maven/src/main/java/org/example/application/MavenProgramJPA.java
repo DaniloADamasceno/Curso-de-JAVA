@@ -5,6 +5,7 @@ import org.example.domain.PersonMaven;
 
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
+import static java.lang.System.*;
 
 public class MavenProgramJPA {
     public static void main(String[] args) {
@@ -18,7 +19,7 @@ public class MavenProgramJPA {
         PersonMaven personFour = new PersonMaven(null, "Miguel Mandzuk", "miguelMandiz@yahoo.com");
         PersonMaven personFive = new PersonMaven(null, "Nina Dobrev", "dobrevNina@gmail.com");
 */
-        // Instanciar o Banco de dados automaticamente atraves do JPA
+        // Instanciar o Banco de dados automaticamente através do JPA
         EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("exemplo-maven-jpa");
         EntityManager entityManager = entityManagerFactory.createEntityManager();
 
@@ -32,7 +33,7 @@ public class MavenProgramJPA {
         entityManager.persist(personFour);
         entityManager.persist(personFive);
 
-        entityManager.getTransaction().commit(); // para cofirmar as alteraçõe
+        entityManager.getTransaction().commit(); // para confirmar as alterações
 */
 
         // Fazer Busca no DB com JPA ⬇️⬇️
@@ -40,17 +41,17 @@ public class MavenProgramJPA {
         PersonMaven search2 = entityManager.find(PersonMaven.class, 5);
         PersonMaven search3 = entityManager.find(PersonMaven.class, 1);
 
-        System.out.println(); // Quebras de Linha
-        System.out.println(); // Quebras de Linha
-        System.out.println(search3);
-        System.out.println(search2);
-        System.out.println(search);
+        out.println(); // Quebras de Linha
+        out.println(); // Quebras de Linha
+        out.println(search3);
+        out.println(search2);
+        out.println(search);
 
 
 
-        System.out.println("---------->>>✅   Inseridos no DB   ✅<<<----------");
-        System.out.println(); // Quebras de Linha
-        System.out.println(); // Quebras de linha
+        out.println("---------->>>✅   Inseridos no DB   ✅<<<----------");
+        out.println(); // Quebras de Linha
+        out.println(); // Quebras de linha
 
         // para fechar todas as instâncias com o DB ⬇️⬇️
         entityManager.close();

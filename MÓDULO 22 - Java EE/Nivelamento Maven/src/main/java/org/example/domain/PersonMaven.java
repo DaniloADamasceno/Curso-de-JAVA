@@ -4,11 +4,13 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import java.io.Serial;
 import java.io.Serializable;
 
 @Entity
 public class PersonMaven implements Serializable {
 
+    @Serial
     private static final long serialVersionUID = 1L;
 
     @Id  //
@@ -18,7 +20,7 @@ public class PersonMaven implements Serializable {
     private String name;
     private String email;
 
-    //-------------------------------------------------   Constructors   -----------------------------------------------
+    //!-------------------------------------------------   Constructors   ----------------------------------------------
     public PersonMaven() {
     }
 
@@ -28,7 +30,7 @@ public class PersonMaven implements Serializable {
         this.email = email;
     }
 
-    //-------------------------------------------------   Getters and Setters   ----------------------------------------
+    //!-------------------------------------------------   Getters and Setters   ---------------------------------------
     public Integer getId() {
         return id;
     }
@@ -53,7 +55,7 @@ public class PersonMaven implements Serializable {
         this.email = email;
     }
 
-    //-------------------------------------------------   ToString   ---------------------------------------------------
+    //!-------------------------------------------------   ToString   --------------------------------------------------
     @Override
     public String toString() {
         return "Person >>>  ID= #" + id + "    NAME= " + name + "         E-MAIL= " + email;

@@ -7,18 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f7eb72f-ac89-4e3d-90bf-cf90a0dadea4" name="Changes" comment=":tada: Finalizado o conteudo modulo 19">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/active-tab-highlighter.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MÓDULO 18 - INTERFACES/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../MÓDULO 18 - INTERFACES/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MÓDULO 20 - Expressoes Lambda/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../MÓDULO 20 - Expressoes Lambda/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MÓDULO 21 - Banco de Dados com JDBC/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../MÓDULO 21 - Banco de Dados com JDBC/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MÓDULO 22 - Java EE/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../MÓDULO 22 - Java EE/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Módulo 18 - INTERFACES/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Módulo 18 - INTERFACES/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="2f7eb72f-ac89-4e3d-90bf-cf90a0dadea4" name="Changes" comment=":recycle: Refatoração Módulo 19" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,6 +21,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GitToolBoxStore">
@@ -75,6 +70,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.GenericsDelimitados.executor": "Run",
     "Application.Program.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -184,7 +180,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673461741556</updated>
-      <workItem from="1708089402309" duration="451000" />
+      <workItem from="1708089402309" duration="860000" />
     </task>
     <task id="LOCAL-00001" summary=":wrench: HasCode e Equals 1.0">
       <created>1673482482282</created>
@@ -228,7 +224,15 @@
       <option name="project" value="LOCAL" />
       <updated>1674063039570</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary=":recycle: Refatoração Módulo 19">
+      <option name="closed" value="true" />
+      <created>1708090195919</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1708090195919</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,7 +259,9 @@
     <MESSAGE value=":alembic: Comparando com TreeSET" />
     <MESSAGE value=":bento: Exemplo com classe SET" />
     <MESSAGE value=":tada: Finalizado o conteudo modulo 19" />
-    <option name="LAST_COMMIT_MESSAGE" value=":tada: Finalizado o conteudo modulo 19" />
+    <MESSAGE value=":recycle: Refatoração Módulo 18" />
+    <MESSAGE value=":recycle: Refatoração Módulo 19" />
+    <option name="LAST_COMMIT_MESSAGE" value=":recycle: Refatoração Módulo 19" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
