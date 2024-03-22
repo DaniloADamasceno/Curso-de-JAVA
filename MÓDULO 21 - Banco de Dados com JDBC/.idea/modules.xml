@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/JDBC - Atualizando Dados no DB/JDBC - Atualizando Dados no DB.iml" filepath="$PROJECT_DIR$/JDBC - Atualizando Dados no DB/JDBC - Atualizando Dados no DB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JDBC - Deletando Dados no DB/JDBC - Deletando Dados no DB.iml" filepath="$PROJECT_DIR$/JDBC - Deletando Dados no DB/JDBC - Deletando Dados no DB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JDBC - Inserir Dados no DB/JDBC - Inserir Dados no DB.iml" filepath="$PROJECT_DIR$/JDBC - Inserir Dados no DB/JDBC - Inserir Dados no DB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JDBC - Transacoes/JDBC - Transacoes.iml" filepath="$PROJECT_DIR$/JDBC - Transacoes/JDBC - Transacoes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JDBC-Pegar Dados do DB/JDBC-Pegar Dados do DB.iml" filepath="$PROJECT_DIR$/JDBC-Pegar Dados do DB/JDBC-Pegar Dados do DB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/MÓDULO 21 - Banco de Dados com JDBC.iml" filepath="$PROJECT_DIR$/.idea/MÓDULO 21 - Banco de Dados com JDBC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Projeto com DAO/Projeto com DAO.iml" filepath="$PROJECT_DIR$/Projeto com DAO/Projeto com DAO.iml" />
+    </modules>
+  </component>
+</project>

@@ -18,8 +18,8 @@ public class ProgramDelete {
             connDelete = DBDelete.getConnection();
             preStatment = connDelete.prepareStatement(
                     "DELETE FROM Department "
-                            + "WHERE "
-                            + "(Id = ?)");
+                    + "WHERE "
+                    + "(Id = ?)");
             preStatment.setInt(1, 4);
 
             int AffectedRows = preStatment.executeUpdate();                                  // retorna o número de linhas afetadas
@@ -29,9 +29,8 @@ public class ProgramDelete {
         } catch (SQLException errDelete) {
             throw new DbIntegrityException(errDelete.getMessage());
         } finally {                                                                         // fechando a conexão com o banco de dados
-            DBDelete.closeStatment(preStatment);
+            DBDelete.closeStatement(preStatment);
             DBDelete.closeConnection();
         }
-
     }
 }

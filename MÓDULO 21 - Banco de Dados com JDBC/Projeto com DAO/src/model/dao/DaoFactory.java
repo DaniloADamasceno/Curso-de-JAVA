@@ -1,18 +1,16 @@
 package model.dao;
 
-import dataBase.DBDAO;
+import dataBase.DataBaseDAO;
 import model.dao.implement.DepartmentDaoJDBC;
 import model.dao.implement.SellerDaoJDBC;
-
-import java.sql.Connection;
 
 public class DaoFactory {
 
     public static SellerDao createSellerDao() {
-        return new SellerDaoJDBC(DBDAO.getConnection());
+        return new SellerDaoJDBC(DataBaseDAO.getConnection());
     }
 
     public static DepartmentDao createDepartmentDao() {
-        return new DepartmentDaoJDBC(DBDAO.getConnection());
+        return new DepartmentDaoJDBC(DataBaseDAO.getConnection());
     }
 }

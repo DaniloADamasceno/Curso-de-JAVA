@@ -1,4 +1,4 @@
---    ---------------------   Criação das Tabelas Department(Departamento) e  Seller(Vendedor)
+--    *---------------------   Criação das Tabelas Department(Departamento) e  Seller(Vendedor)
 
 CREATE TABLE Department (
   Id int(11) NOT NULL AUTO_INCREMENT,
@@ -18,19 +18,19 @@ CREATE TABLE Seller (
 );
 
 
---    -------------------   Inserção de Valores nas tabelas criadas 
+--    *-------------------   Inserção de Valores nas tabelas criadas
 
 insert into Department (Name) values 
 ('Computers'),          -- 1
-('Eletronics'),         -- 2
+('Electronics'),         -- 2
 ('Fashion'),            -- 3
 ('Books'),              -- 4
 ('Sports'),             -- 5
 ('Books'),              -- 6
 ('Sports'),             -- 7
-('Automative'),         -- 8
+('Automotive'),         -- 8
 ('peripherals'),        -- 9
-('Othres');             -- 10
+('Others');             -- 10
 
 
 
@@ -43,7 +43,7 @@ INSERT INTO seller (Name, Email, BirthDate, BaseSalary, DepartmentId) VALUES
 ('Athila','Athila@gmail.com', '1992-02-10 17:00:07', 8830, 5),
 ('Margoth','Margoth@gmail.com', '2016-02-08 16:00:08', 4500, 7),
 ('Miguel','Miguel@gmail.com', '2015-10-19 15:00:09', 7360, 7),
-('Ralfh','ralfh@gmail.com', '2002-08-12 16:00:10', 5260, 9),
+('Ralf','ralfh@gmail.com', '2002-08-12 16:00:10', 5260, 9),
 ('Dick','Dick@gmail.com', '2001-08-18 17:00:11', 6970, 9),
 ('Lola Kurinma','Lola@gmail.com', '2019-05-20 19:00:12', 3780, 2),
 ('Maria DatBat','Maria@gmail.com', '2000-06-13 20:00:13', 2930, 2),

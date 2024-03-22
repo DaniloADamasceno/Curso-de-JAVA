@@ -25,7 +25,7 @@ public class ProgramDepartmentDao {
         System.out.println();
         System.out.println();
 
-        //-----------------------------------   Teste de inserção de Dados   -------------------------------------------
+        //!-----------------------------------   Teste de inserção de Dados   ------------------------------------------
         System.out.println("<<<<<<<<<< Teste Department  / INSERT >>>>>>>>>>");
         Department testDepartment = new Department(null, "Chinese Spices");
         departmentDao.insert(testDepartment);
@@ -34,14 +34,14 @@ public class ProgramDepartmentDao {
         System.out.println();
         System.out.println("*****************************************************************************************");
 
-        //-----------------------------------   Busca por ID   ---------------------------------------------------------
+        //!-----------------------------------   Busca por ID   --------------------------------------------------------
         System.out.println("<<<<<<<<<< Teste Seller  / FindByID >>>>>>>>>>");
         Department departmentFindByID = departmentDao.findById(8);   // “IDs” entre 01 e 11 são os que estão no banco de dados
         System.out.println(departmentFindByID);
         System.out.println();
         System.out.println("*****************************************************************************************");
 
-        //-----------------------------------   Teste de Atualização de Dados   ----------------------------------------
+        //!-----------------------------------   Teste de Atualização de Dados   ---------------------------------------
 
         System.out.println("<<<<<<<<<< Teste Department  / UPDATE >>>>>>>>>>");
         Department departmentNew1 = new Department();
@@ -61,8 +61,7 @@ public class ProgramDepartmentDao {
         System.out.println();
         System.out.println("*****************************************************************************************");
 
-
-        //-----------------------------------   Busca por nome com retorno de lista   ----------------------------------
+        //!-----------------------------------   Busca por nome com retorno de lista   ---------------------------------
         System.out.println("<<<<<<<<<< Teste Department  / FindALL >>>>>>>>>>");
         List<Department> listAll = departmentDao.findAll();
         for (Department findAll : listAll) {
@@ -72,8 +71,7 @@ public class ProgramDepartmentDao {
         System.out.println();
         System.out.println("*****************************************************************************************");
 
-
-        //-----------------------------------   Teste de exclusão de Dados   -------------------------------------------
+        //!-----------------------------------   Teste de exclusão de Dados   ------------------------------------------
         System.out.println("<<<<<<<<<< Teste Seller  / DELETE >>>>>>>>>>");
 
         System.out.println("Enter id for delete test: ");

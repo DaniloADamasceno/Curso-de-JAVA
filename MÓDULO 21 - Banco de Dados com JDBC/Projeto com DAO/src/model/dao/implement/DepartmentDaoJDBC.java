@@ -1,7 +1,7 @@
 package model.dao.implement;
 
-import dataBase.DBDAO;
-import dataBase.DbExceptionDAO;
+import dataBase.DataBaseDAO;
+import dataBase.DataBaseExceptionDAO;
 import model.dao.DepartmentDao;
 import model.entities.Department;
 
@@ -52,16 +52,16 @@ public class DepartmentDaoJDBC implements DepartmentDao {
                     int id = resultSet.getInt(1);
                     testDepartment.setId(id);
                 }
-                DBDAO.closeResultSet(resultSet);  // fechando o resultSet
+                DataBaseDAO.closeResultSet(resultSet);  // fechando o resultSet
             } else {
-                throw new DbExceptionDAO("⛔ Unexpected error! No rows affected! / NENHUMA LINHA FOI AFETADA!⛔");
+                throw new DataBaseExceptionDAO("⛔ Unexpected error! No rows affected! / NENHUMA LINHA FOI AFETADA!⛔");
             }
 
         } catch (SQLException errInsertDepartment) {
-            throw new DbExceptionDAO(errInsertDepartment.getMessage());
+            throw new DataBaseExceptionDAO(errInsertDepartment.getMessage());
 
         } finally {
-            DBDAO.closeStatement(prepStatment);
+            DataBaseDAO.closeStatement(prepStatment);
         }
 
     }
@@ -85,7 +85,7 @@ public class DepartmentDaoJDBC implements DepartmentDao {
         } catch (SQLException errUpdateDepartment) {
             throw new RuntimeException(errUpdateDepartment);
         } finally {
-            DBDAO.closeStatement(prepStatment);
+            DataBaseDAO.closeStatement(prepStatment);
         }
     }
 
@@ -102,13 +102,13 @@ public class DepartmentDaoJDBC implements DepartmentDao {
             int deletedRowsDepartment = prepStatment.executeUpdate();
 
             if (deletedRowsDepartment == 0) {
-                throw new DbExceptionDAO("⛔ Id not found! / ID NÃO ENCONTRADO! ⛔");
+                throw new DataBaseExceptionDAO("⛔ Id not found! / ID NÃO ENCONTRADO! ⛔");
             }
 
         } catch (SQLException errDelete) {
             throw new RuntimeException(errDelete);
         } finally {
-            DBDAO.closeStatement(prepStatment);
+            DataBaseDAO.closeStatement(prepStatment);
 
         }
     }
@@ -132,11 +132,11 @@ public class DepartmentDaoJDBC implements DepartmentDao {
             return null;
         }
         catch (SQLException e) {
-            throw new DbExceptionDAO(e.getMessage());
+            throw new DataBaseExceptionDAO(e.getMessage());
         }
         finally {
-            DBDAO.closeStatement(prepStatment);
-            DBDAO.closeResultSet(resultSet);
+            DataBaseDAO.closeStatement(prepStatment);
+            DataBaseDAO.closeResultSet(resultSet);
         }
 
     }
@@ -163,11 +163,11 @@ public class DepartmentDaoJDBC implements DepartmentDao {
             return listByDepartment;
 
         } catch (SQLException errDepartment) {
-            throw new DbExceptionDAO(errDepartment.getMessage());
+            throw new DataBaseExceptionDAO(errDepartment.getMessage());
 
         } finally {
-            DBDAO.closeStatement(prepStatment);
-            DBDAO.closeResultSet(resultSet);
+            DataBaseDAO.closeStatement(prepStatment);
+            DataBaseDAO.closeResultSet(resultSet);
         }
 
     }

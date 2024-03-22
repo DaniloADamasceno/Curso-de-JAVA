@@ -10,7 +10,8 @@ public class DBInsert {
 
     private static Connection connect = null;
 
-    //----------------------------------------   Methods   -------------------------------------------------------------
+    //^^----------------------------------------   Methods   -----------------------------------------------------------
+    //%% Conectar com o banco de dados
     public static Connection getConnection() {                                 // método para conectar com o banco de dados
         if (connect == null) {
             try {
@@ -24,8 +25,10 @@ public class DBInsert {
         return connect;
     }
 
-    private static Properties loadProperties() {  // método para carregar as propriedades do arquivo db.properties
-        try (FileInputStream fileInpStream = new FileInputStream("D:\\Danilo A. Damasceno\\Desktop\\JavaScript e JAVA\\JAVA\\03 - Modulos 17 a 22\\Curso-de-JAVA\\MÓDULO 21 - Banco de Dados com JDBC\\db.properties")) {
+    //%% Carregar as propriedades do arquivo db.properties
+    private static Properties loadProperties() {
+        try (FileInputStream fileInpStream = new FileInputStream(
+                "MÓDULO 21 - Banco de Dados com JDBC/db.properties")) {
             Properties propsLoad = new Properties();
             propsLoad.load(fileInpStream);
             return propsLoad;
@@ -34,7 +37,8 @@ public class DBInsert {
         }
     }
 
-    public static void closeStatment(Statement statement) { // método para fechar o statement
+    //%% Fechar o Statement
+    public static void closeStatement(Statement statement) {
         if (statement != null) {
             try {
                 statement.close();
@@ -44,7 +48,8 @@ public class DBInsert {
         }
     }
 
-    public static void closeResultSet(ResultSet resultSet) { // método para fechar o ResultSet
+    //%% Fechar o ResultSet
+    public static void closeResultSet(ResultSet resultSet) {
         if (resultSet != null) {
             try {
                 resultSet.close();
@@ -54,8 +59,8 @@ public class DBInsert {
         }
     }
 
-
-    public static void closeConnection() { // método para fechar a conexão com o banco de dados
+    //%% Fechar a Conexão com o banco de dados
+    public static void closeConnection() {
         if (connect != null) {
             try {
                 connect.close();

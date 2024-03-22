@@ -29,7 +29,7 @@ public class ProgramSellerDao {
         System.out.println();
         System.out.println();
 
-        //-----------------------------------   Teste DEPARTAMENTO   ---------------------------------------------------
+        //!-----------------------------------   Teste DEPARTAMENTO   ---------------------------------------------------
         System.out.println("----------------------------- Teste Department/ DEPARTAMENTO ----------------------------");
         Department testDepartment = new Department(1, "Libraries");
         System.out.println(testDepartment);
@@ -37,8 +37,7 @@ public class ProgramSellerDao {
         System.out.println();
         System.out.println("*****************************************************************************************");
 
-
-        //-----------------------------------   Teste VENDEDOR   -------------------------------------------------------
+        //!-----------------------------------   Teste VENDEDOR   -------------------------------------------------------
         System.out.println("----------------------------- Teste Seller/VENDEDOR   ----------------------------- ");
         Seller testSeller = new Seller(101, "Margoth", "margoth@gmail.com", 3589.00,
                 formatDate, testDepartment);
@@ -47,16 +46,14 @@ public class ProgramSellerDao {
         System.out.println();
         System.out.println("*****************************************************************************************");
 
-
-        //-----------------------------------   Busca por ID   ---------------------------------------------------------
+        //!-----------------------------------   Busca por ID   ---------------------------------------------------------
         System.out.println("<<<<<<<<<< Teste Seller  / FindByID >>>>>>>>>>");
         Seller seller = sellerDao.findById(48);   // “IDs” entre 40 e 60 são os que estão no banco de dados
         System.out.println(seller);
         System.out.println();
         System.out.println("*****************************************************************************************");
 
-
-        //-----------------------------------   Busca por departamento com retorno de lista   --------------------------
+        //!-----------------------------------   Busca por departamento com retorno de lista   --------------------------
         System.out.println("<<<<<<<<<< Teste Seller  / FindByDepartment >>>>>>>>>>");
         Department department = new Department(3, null);
         List<Seller> list = sellerDao.findByDepartment(department);
@@ -66,8 +63,7 @@ public class ProgramSellerDao {
         System.out.println();
         System.out.println("*****************************************************************************************");
 
-
-        //-----------------------------------   Busca por nome com retorno de lista   ----------------------------------
+        //!-----------------------------------   Busca por nome com retorno de lista   ----------------------------------
         System.out.println("<<<<<<<<<< Teste Seller  /  FindALL >>>>>>>>>>");
         List<Seller> listAll = sellerDao.findAll();
         for (Seller objAll : listAll) {
@@ -76,8 +72,7 @@ public class ProgramSellerDao {
         System.out.println();
         System.out.println("*****************************************************************************************");
 
-
-        //-----------------------------------   Teste de inserção de Dados   -------------------------------------------
+        //!-----------------------------------   Teste de inserção de Dados   -------------------------------------------
         System.out.println("<<<<<<<<<< Teste Seller  /  INSERT >>>>>>>>>>");
 
         Date formatDateGreg = sdf.parse("15/01/1975");
@@ -95,12 +90,10 @@ public class ProgramSellerDao {
         sellerDao.insert(newSeller2);
         System.out.println("Inserted! New id = " + newSeller2.getId() + " - " + newSeller2.getName());
 
-
         System.out.println();
         System.out.println("*****************************************************************************************");
 
-        //-----------------------------------   Teste de Atualização de Dados   ----------------------------------------
-
+        //!-----------------------------------   Teste de Atualização de Dados   ----------------------------------------
         System.out.println("<<<<<<<<<< Teste Seller  /  UPDATE >>>>>>>>>>");
 
         Date formatDateKey = sdf.parse("15/08/1996");
@@ -117,12 +110,12 @@ public class ProgramSellerDao {
         System.out.println("⚠️✅Update completed! /  Atualização concluída!⚠️✅");
         System.out.println();
         System.out.println(seller.getId() + " -- " + seller.getName() + " \n " + seller.getEmail()
-                + " -- " + seller.getBirthDate() + " \n " + seller.getBaseSalary() + " - "
-                + seller.getDepartment().getName());
+                           + " -- " + seller.getBirthDate() + " \n " + seller.getBaseSalary() + " - "
+                           + seller.getDepartment().getName());
         System.out.println();
         System.out.println("*****************************************************************************************");
 
-        //-----------------------------------   Teste de exclusão de Dados   -------------------------------------------
+        //!-----------------------------------   Teste de exclusão de Dados   -------------------------------------------
         System.out.println("<<<<<<<<<< Teste Seller  /  DELETE >>>>>>>>>>");
 
         System.out.println("Enter id for delete test: ");
@@ -131,7 +124,6 @@ public class ProgramSellerDao {
         System.out.println("⚠️✅Delete completed! / Exclusão concluída!⚠️✅");
         System.out.println();
         System.out.println("*****************************************************************************************");
-
 
         scan.close();
     }

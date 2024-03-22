@@ -1,7 +1,7 @@
 package model.dao.implement;
 
-import dataBase.DBDAO;
-import dataBase.DbExceptionDAO;
+import dataBase.DataBaseDAO;
+import dataBase.DataBaseExceptionDAO;
 import model.dao.SellerDao;
 import model.entities.Department;
 import model.entities.Seller;
@@ -74,16 +74,16 @@ public class SellerDaoJDBC implements SellerDao {
                     int id = resultSet.getInt(1);
                     testSeller.setId(id);
                 }
-                DBDAO.closeResultSet(resultSet);  // fechando o resultSet
+                DataBaseDAO.closeResultSet(resultSet);  // fechando o resultSet
             } else {
-                throw new DbExceptionDAO(" ⛔ Unexpected error! No rows affected! / NENHUMA LINHA FOI AFETADA! ⛔");
+                throw new DataBaseExceptionDAO(" ⛔ Unexpected error! No rows affected! / NENHUMA LINHA FOI AFETADA! ⛔");
             }
 
         } catch (SQLException errInsert) {
-            throw new DbExceptionDAO(errInsert.getMessage());
+            throw new DataBaseExceptionDAO(errInsert.getMessage());
 
         } finally {
-            DBDAO.closeStatement(prepStatment);
+            DataBaseDAO.closeStatement(prepStatment);
         }
     }
 
@@ -114,7 +114,7 @@ public class SellerDaoJDBC implements SellerDao {
         } catch (SQLException errUpdate) {
             throw new RuntimeException(errUpdate);
         } finally {
-            DBDAO.closeStatement(prepStatment);
+            DataBaseDAO.closeStatement(prepStatment);
         }
 
     }
@@ -132,13 +132,13 @@ public class SellerDaoJDBC implements SellerDao {
             int deletedRows = prepStatment.executeUpdate();
 
             if (deletedRows == 0) {
-                throw new DbExceptionDAO("⛔ Id not found! / ID NÃO ENCONTRADO! ⛔");
+                throw new DataBaseExceptionDAO("⛔ Id not found! / ID NÃO ENCONTRADO! ⛔");
             }
 
         } catch (SQLException errDelete) {
             throw new RuntimeException(errDelete);
         } finally {
-            DBDAO.closeStatement(prepStatment);
+            DataBaseDAO.closeStatement(prepStatment);
 
         }
 
@@ -166,11 +166,11 @@ public class SellerDaoJDBC implements SellerDao {
             }
             return null;
         } catch (SQLException errDAO) {
-            throw new DbExceptionDAO(errDAO.getMessage());
+            throw new DataBaseExceptionDAO(errDAO.getMessage());
 
         } finally {
-            DBDAO.closeStatement(prepStatment);
-            DBDAO.closeResultSet(resultSet);
+            DataBaseDAO.closeStatement(prepStatment);
+            DataBaseDAO.closeResultSet(resultSet);
         }
     }
 
@@ -206,11 +206,11 @@ public class SellerDaoJDBC implements SellerDao {
             return listByDepartment;
 
         } catch (SQLException errDepartment) {
-            throw new DbExceptionDAO(errDepartment.getMessage());
+            throw new DataBaseExceptionDAO(errDepartment.getMessage());
 
         } finally {
-            DBDAO.closeStatement(prepStatment);
-            DBDAO.closeResultSet(resultSet);
+            DataBaseDAO.closeStatement(prepStatment);
+            DataBaseDAO.closeResultSet(resultSet);
         }
     }
 
@@ -242,11 +242,11 @@ public class SellerDaoJDBC implements SellerDao {
             }
             return listByDepartment;
         } catch (SQLException errDepartment) {
-            throw new DbExceptionDAO(errDepartment.getMessage());
+            throw new DataBaseExceptionDAO(errDepartment.getMessage());
 
         } finally {
-            DBDAO.closeStatement(prepStatment);
-            DBDAO.closeResultSet(resultSet);
+            DataBaseDAO.closeStatement(prepStatment);
+            DataBaseDAO.closeResultSet(resultSet);
         }
 
     }
