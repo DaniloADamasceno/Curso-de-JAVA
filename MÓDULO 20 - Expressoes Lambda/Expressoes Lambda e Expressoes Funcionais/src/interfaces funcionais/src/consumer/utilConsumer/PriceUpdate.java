@@ -1,7 +1,8 @@
 package consumer.utilConsumer;
 
-import java.util.function.Consumer;
 import consumer.entitiesConsumer.ProductConsumer;
+
+import java.util.function.Consumer;
 
 public class PriceUpdate implements Consumer<ProductConsumer> {
     @Override

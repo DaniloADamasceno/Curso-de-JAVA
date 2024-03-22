@@ -1,19 +1,19 @@
 package funcoesComoParamentro.modelServiceParamentro;
 
-import funcoesComoParamentro.entitiesParametro.ProductParametro;
+import funcoesComoParamentro.entitiesParametro.ProductParameter;
 
 import java.util.List;
 import java.util.function.Predicate;
 
 public class ProductService {
 
-    public double filteredSum(List<ProductParametro> list, Predicate<ProductParametro> criterio) {
-        double soma = 0.0;
-        for (ProductParametro pParametro : list) {
-            if (criterio.test(pParametro)); {
-                soma += pParametro.getPrice();
+    public double filteredSum(List<ProductParameter> list, Predicate<ProductParameter> criterio) {
+        double sumFilter = 0.0;
+        for (ProductParameter pParameterFilterSum : list) {
+            if (criterio.test(pParameterFilterSum)) {
+                sumFilter += pParameterFilterSum.getPrice();
             }
         }
-        return soma;
+        return sumFilter;
     }
 }

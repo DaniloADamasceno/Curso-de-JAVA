@@ -6,9 +6,8 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.*;
-import java.util.stream.Collectors;
 
-public class ProgramExercicio {
+public class AppStream {
 
     public static void main(String[] args) {
         /*
@@ -35,27 +34,26 @@ public class ProgramExercicio {
                 line = buffReader.readLine();
             }
 
-            //-----------------------------------   Calcula a média dos preços   ---------------------------------------
+            //^^-----------------------------------   Calcula a média dos preços   -------------------------------------
             double medio = list.stream()
-                    .map(p -> p.getPrice())    // para cada elemento da lista, pega o preço
-                    .reduce(0.0, (x, y) -> x + y) / list.size(); // soma todos os preços e divide pela quantidade de elementos da lista
+                                   .map(ProductStream::getPriceProductStream)    // para cada elemento da lista, pega o preço
+                                   .reduce(0.0, Double::sum) / list.size(); // soma todos os preços e divide pela quantidade de elementos da lista
             System.out.println("Average price: / Preço médio: " + String.format("%.2f", medio));
 
-            //---------------   Mostra os nomes dos produtos com preço inferior ao preço médio   -----------------------
+            //^^---------------   Mostra os nomes dos produtos com preço inferior ao preço médio   ---------------------
             Comparator<String> comp = (x, y) -> x.toUpperCase().compareTo(y.toUpperCase());             // cria um comparador para ordenar a lista de forma decrescente
-
-            List<String> names = list.stream()                                                         // cria uma lista de ‘strings’
-                    .filter(p -> p.getPrice() < medio)                                      // filtra os produtos com preço inferior ao preço médio
-                    .map(p -> p.getName())                                                    // para cada elemento da lista, pega o nome
-                    .sorted((x, y) -> y.compareTo(x))                                     // ordena a lista de forma decrescente
-                    .sorted(comp.reversed())                                              // converte a lista para uma lista de ‘strings’
-                    .collect(Collectors.toList());                                        // converte a lista para uma lista de ‘strings’
+            List<String> names = list.stream()                                   // cria uma lista de ‘strings’
+                    .filter(p -> p.getPriceProductStream() < medio)                // filtra os produtos com preço inferior ao preço médio
+                    .map(ProductStream::getNameProductStream)                         // para cada elemento da lista, pega o nome
+                    .sorted((x, y) -> y.compareTo(x))                 // ordena a lista de forma decrescente
+                    .sorted(comp.reversed())                          // converte a lista para uma lista de ‘strings’
+                    .toList();                                                   // converte a lista para uma lista de ‘strings’
 
             System.out.println("<<<--- Names of products with price less than average price: / Nomes dos produtos com preço inferior ao preço médio: --->>>");
             names.forEach(System.out::println);                                              // mostra os nomes dos produtos com preço inferior ao preço médio
 
         } catch (IOException err) {
-            System.out.println("🚩🚩Error:  " + err.getMessage());
+            System.out.println("⚠️ ⚠️Error:  " + err.getMessage());
             throw new RuntimeException(err);
         }
         scanner.close();

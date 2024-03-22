@@ -5,13 +5,13 @@ public class ProductPredicate {
     private String name;
     private Double price;
 
-    //-------------------------------------  Constructor  ---------------------------------------------
+    //^^----------------------------------------------------  Constructor  ---------------------------------------------
     public ProductPredicate(String name, Double price) {
         this.name = name;
         this.price = price;
     }
 
-    //-------------------------------------  Getters and Setters  -------------------------------------
+    //^^--------------------------------------------  Getters and Setters  ---------------------------------------------
     public String getName() {
         return name;
     }
@@ -28,9 +28,9 @@ public class ProductPredicate {
         this.price = price;
     }
 
-    //!-------------------------------------  Methods  ------------------------------------------------
-    // MÉTODO ESTATICO PRECISA DE UM ARGUMENTO PARA SER ATRIBUIDO A UMA VARIAVEL
-    public static boolean staticProductPredicate(ProductPredicate product) {   // outra forma de fazer o mesmo que o ProductPredicate.java e chamando o metodo statico
+    //!----------------------------------------------  Methods  --------------------------------------------------------
+    //%% MÉTODO ESTÁTICO PRECISA DE UM ARGUMENTO PARA SER ATRIBUIDO A UMA VARIÁVEL
+    public static boolean staticProductPredicate(ProductPredicate product) {   // outra forma de fazer o mesmo que o ProductPredicate.java e chamando o método Estático
         return product.getPrice() >= 100;
     }
 
@@ -38,11 +38,11 @@ public class ProductPredicate {
         return price >= 100;
     }
 
-    //-------------------------------------  toString  -----------------------------------------------
+    //^^-------------------------------------------------  toString  ---------------------------------------------------
     @Override
     public String toString() {
-        return "Product/Produto >> " +
-                "Name/Nome = " + name +
-                "--> Price/Preço = " + price;
+        return "Product|Produto >> " +
+               "Name|Nome = " + name +
+               "--> Price/Preço = " + price;
     }
 }

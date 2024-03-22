@@ -5,13 +5,13 @@ public class ProductFunction {
     private String name;
     private Double price;
 
-    //----------------------------------------------------   Construtors   ---------------------------------------------
+    //^^----------------------------------------------   Constructors   ------------------------------------------------
     public ProductFunction(String name, Double price) {
         this.name = name;
         this.price = price;
     }
 
-    //----------------------------------------------   Getters and Setters   -------------------------------------------
+    //^^----------------------------------------------   Getters and Setters   -----------------------------------------
     public String getName() {
         return name;
     }
@@ -28,21 +28,21 @@ public class ProductFunction {
         this.price = price;
     }
 
-    //----------------------------------------------   Methods   -------------------------------------------------------
-    public static String staticUperCaseName(ProductFunction productFunction) {
+    //^^----------------------------------------------   Methods   -----------------------------------------------------
+    public static String staticUpperCaseName(ProductFunction productFunction) {
         return productFunction.getName().toUpperCase();
     }
-    public String naoStaticUperCaseName() {
+
+    public String naoStaticUpperCaseName() {
         return name.toUpperCase();
     }
 
-
-    //----------------------------------------------   toString()   ----------------------------------------------------
+    //^^----------------------------------------------   toString()   --------------------------------------------------
     @Override
     public String toString() {
 
-        return "Product/Produto >> " +
-                "Name/Nome = " + name +
-                "--> Price/Preço = " + String.format("%.2f", price);
+        return "Product|Produto >> " +
+               "Name|Nome = " + name +
+               "--> Price/Preço = " + String.format("%.2f", price);
     }
 }

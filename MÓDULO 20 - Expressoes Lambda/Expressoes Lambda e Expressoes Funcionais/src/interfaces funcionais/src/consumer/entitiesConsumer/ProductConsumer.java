@@ -5,13 +5,13 @@ public class ProductConsumer {
     private String name;
     private Double price;
 
-    //----------------------------------------------------   Construtors   ---------------------------------------------
+    //^^----------------------------------------------------   Constructors   ------------------------------------------
     public ProductConsumer(String name, Double price) {
         this.name = name;
         this.price = price;
     }
 
-    //----------------------------------------------   Getters and Setters   -------------------------------------------
+    //^^----------------------------------------------   Getters and Setters   -----------------------------------------
     public String getName() {
         return name;
     }
@@ -27,22 +27,21 @@ public class ProductConsumer {
     public void setPrice(Double price) {
         this.price = price;
     }
-    //----------------------------------------------   Methods   -------------------------------------------------------
+    //^^--------------------------------------------   Methods   -------------------------------------------------------
 
     public static void staticPriceUpdate(ProductConsumer pConsumer) {
         pConsumer.setPrice(pConsumer.getPrice() * 1.1);
     }
 
-    public void naoStaticPriceUpdate() {  // Método não estatico
+    public void naoStaticPriceUpdate() {  // Método não estático
         price = price * 1.1;
     }
 
-    //----------------------------------------------   toString()   ----------------------------------------------------
+    //^^----------------------------------------------   toString()   --------------------------------------------------
     @Override
     public String toString() {
-
-        return "Product/Produto >> " +
-                "Name/Nome = " + name +
-                "--> Price/Preço = " + String.format("%.2f", price);
+        return "Product|Produto >> " +
+               "Name|Nome = " + name +
+               "--> Price/Preço = " + String.format("%.2f", price);
     }
 }

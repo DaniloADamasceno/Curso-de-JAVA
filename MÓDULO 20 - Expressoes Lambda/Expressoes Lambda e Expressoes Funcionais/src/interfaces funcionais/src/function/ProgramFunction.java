@@ -2,13 +2,12 @@ package function;
 
 
 import function.entitiesFunction.ProductFunction;
-import function.utilFunction.UperCaseName;
+import function.utilFunction.UpperCaseName;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 import java.util.function.Function;
-import java.util.stream.Collectors;
 
 public class ProgramFunction {
     public static void main(String[] args) {
@@ -24,36 +23,41 @@ public class ProgramFunction {
         list.add(new ProductFunction("Teclado", 49.99));
         list.add(new ProductFunction("Impressora", 509.00));
 
-        //----------------------------------   Implementando a INTERFACE FUNCTION   ------------------------------------
+        for (ProductFunction productListFunction : list) {
+            System.out.println("Lista de TODOS os Produtos " + productListFunction);
+        }
+
+        //^^----------------------------------   Implementando a INTERFACE FUNCTION   ----------------------------------
         System.out.println("------------   Interface CONSUMER   ------------");
-        List<String> namesUprcase = list.stream().map(new UperCaseName()).collect(Collectors.toList());
-        namesUprcase.forEach(System.out::println);
-        System.out.println();
+        List<String> namesUpperCase = list.stream().map(new UpperCaseName()).toList();
+        namesUpperCase.forEach(System.out::println);
+        System.out.println(); // Quebra de linha
 
-        //----------------------------------   Método Estatico   -------------------------------------------------------
-        System.out.println("------------   Metodo Estatico   ------------");
-        List<String> namesEstatico = list.stream().map(ProductFunction::staticUperCaseName).collect(Collectors.toList());
-        namesEstatico.forEach(System.out::println);
-        System.out.println();
+        //^^----------------------------------   Método Estático   -----------------------------------------------------
+        System.out.println("------------   Método Estático   ------------");
+        List<String> namesStatic = list.stream().map(ProductFunction::staticUpperCaseName).toList();
+        namesStatic.forEach(System.out::println);
+        System.out.println(); // Quebra de linha
 
-        //----------------------------------   Método Não Estatico   ---------------------------------------------------
-        System.out.println("------------   Metodo NÃO Estatico   ------------");
-        List<String> namesNaoEstatic = list.stream().map(ProductFunction::naoStaticUperCaseName).collect(Collectors.toList());
-        namesNaoEstatic.forEach(System.out::println);
-        System.out.println();
+        //^^----------------------------------   Método Não Estático   -------------------------------------------------
+        System.out.println("------------   Método NÃO Estático   ------------");
+        List<String> namesNotStatic = list.stream().map(ProductFunction::naoStaticUpperCaseName).toList();
+        namesNotStatic.forEach(System.out::println);
+        System.out.println(); // Quebra de linha
 
-        //----------------------------------   Expressão Lambda Declarada   --------------------------------------------
-        System.out.println("------------   Metodo Lambda Declarada   ------------");
+        //^^----------------------------------   Expressão Lambda Declarada   ------------------------------------------
+        System.out.println("------------   Método Lambda Declarada   ------------");
         Function<ProductFunction, String> functionLambdaDeclarada = p -> p.getName().toUpperCase();
-        List<String> namesLambda =list.stream().map(functionLambdaDeclarada).collect(Collectors.toList());
+        List<String> namesLambda = list.stream().map(functionLambdaDeclarada).toList();
         namesLambda.forEach(System.out::println);
-        System.out.println();
+        System.out.println(); // Quebra de linha
 
-        //----------------------------------   Expressão Lambda InLine   -----------------------------------------------
-        System.out.println("------------   Metodo Lambda InLine   ------------");
-        List<String> namesLamndbaInLine = list.stream().map(pNameFunction -> pNameFunction.getName().toUpperCase()).collect(Collectors.toList());
+        //^^----------------------------------   Expressão Lambda InLine   ---------------------------------------------
+        System.out.println("------------   Método Lambda InLine   ------------");
+        List<String> namesLambdaInLine = list.stream().map(pNameFunction -> pNameFunction
+                .getName().toUpperCase()).toList();
 
-        System.out.println();
+        System.out.println(); // Quebra de linha
 
     }
 }

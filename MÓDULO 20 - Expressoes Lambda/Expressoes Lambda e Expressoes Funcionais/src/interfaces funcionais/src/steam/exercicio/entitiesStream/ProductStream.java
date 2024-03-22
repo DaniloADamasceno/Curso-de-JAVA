@@ -2,30 +2,30 @@ package steam.exercicio.entitiesStream;
 
 public class ProductStream {
 
-    private String name;
-    private Double price;
+    private final String nameProductStream;
+    private final Double priceProductStream;
 
-    // -------------------------------------------------- Constructor --------------------------------------------------
+    //^^ -------------------------------------------------- Constructor ------------------------------------------------
     public ProductStream(String name, Double price) {
-        this.name = name;
-        this.price = price;
+        this.nameProductStream = name;
+        this.priceProductStream = price;
     }
 
-    // -------------------------------------------------- Getters and Setters-------------------------------------------
-    public String getName() {
-        return name;
+    //^^ -------------------------------------------------- Getters and Setters-----------------------------------------
+    public String getNameProductStream() {
+        return nameProductStream;
     }
 
-    public Double getPrice() {
-        return price;
+    public Double getPriceProductStream() {
+        return priceProductStream;
     }
 
-    //-------------------------------------------------- To String -----------------------------------------------------
+    //^^-------------------------------------------------- To String ---------------------------------------------------
     @Override
     public String toString() {
-        return "Product/Produto >> " +
-                "Name/Nome = " + name +
-                "--> Price/Preço = " + String.format("%.2f", price);
+        return "Product|Produto >> " +
+               "Name|Nome = " + nameProductStream +
+               "--> Price|Preço = " + String.format("%.2f", priceProductStream);
     }
 
 

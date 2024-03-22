@@ -2,36 +2,36 @@ package steam.exercicio.entitiesStream;
 
 public class Employee {
 
-    private String name;
-    private String email;
-    private Double salary;
+    private final String nameEmployeeStream;
+    private final String emailEmployeeStream;
+    private final Double salaryEmployeeStream;
 
-    // -------------------------------------------------- Constructor --------------------------------------------------
+    //^^ -------------------------------------------------- Constructor ------------------------------------------------
     public Employee(String name, String email, Double salary) {
-        this.name = name;
-        this.email = email;
-        this.salary = salary;
+        this.nameEmployeeStream = name;
+        this.emailEmployeeStream = email;
+        this.salaryEmployeeStream = salary;
     }
 
-    // -------------------------------------------------- Getters and Setters-------------------------------------------
-    public String getName() {
-        return name;
+    //^^ ----------------------------------------------  Getters and Setters  ------------------------------------------
+    public String getNameEmployeeStream() {
+        return nameEmployeeStream;
     }
 
-    public String getEmail() {
-        return email;
+    public String getEmailEmployeeStream() {
+        return emailEmployeeStream;
     }
 
-    public Double getSalary() {
-        return salary;
+    public Double getSalaryEmployeeStream() {
+        return salaryEmployeeStream;
     }
 
-    //-------------------------------------------------- To String -----------------------------------------------------
+    //^^-------------------------------------------------- To String ---------------------------------------------------
     @Override
     public String toString() {
-        return "Employee/Funcionário >> " +
-                "Name/Nome = " + name +
-                "--> Email/Email = " + email +
-                "--> Salary/Salário = " + String.format("%.2f", salary);
+        return "Employee|Funcionário >> " +
+               "Name|Nome = " + nameEmployeeStream +
+               "--> Email|Email = " + emailEmployeeStream +
+               "--> Salary|Salário = " + String.format("%.2f", salaryEmployeeStream);
     }
 }

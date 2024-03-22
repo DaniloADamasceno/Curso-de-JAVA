@@ -37,25 +37,27 @@ public class ProgramEmployee {
             System.out.println("Enter reportedSalary:/ Entre com o salário: ");
             double reportedSalary = scanner.nextDouble();
 
-            System.out.println("Email of people whose reportedSalary is more than / E-mail das pessoas cujo salário informado é superior a:  " + String.format("%.2f", reportedSalary) + ":");
+            System.out.println(
+                    "Email of people whose reportedSalary is more than / E-mail das pessoas cujo salário informado é superior a:  "
+                    + String.format("%.2f", reportedSalary) + ":");
             list.stream()
-                    .filter(employee -> employee.getSalary() > reportedSalary)
-                    .map(Employee::getEmail)
+                    .filter(employee -> employee.getSalaryEmployeeStream() > reportedSalary)
+                    .map(Employee::getEmailEmployeeStream)
                     .sorted()
                     .forEach(System.out::println);
 
-            System.out.println();                                                                                       // Quebra de linha
+            System.out.println();                       // Quebra de linha
             System.out.println("Sum of salary of people whose name starts with / Soma dos salários das pessoas cujo nome começa com a letra:  'M':");
 
             double sum = list.stream()
-                    .filter(employee -> employee.getName().charAt(0) == 'S')
-                    .map(Employee::getSalary)
-                    .reduce(0.0, (x, y) -> x + y);
-            System.out.println(String.format("%.2f", sum));
+                    .filter(employee -> employee.getNameEmployeeStream().charAt(0) == 'S')
+                    .map(Employee::getSalaryEmployeeStream)
+                    .reduce(0.0, Double::sum);
+            System.out.printf("%.2f%n", sum);
 
 
         } catch (IOException e) {
-            System.out.println("🚩🚩Error:  " + e.getMessage());
+            System.out.println("⚠️ ⚠️Error:  " + e.getMessage());
         }
 
         scanner.close();
