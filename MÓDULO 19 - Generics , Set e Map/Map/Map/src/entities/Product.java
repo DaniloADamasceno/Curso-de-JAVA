@@ -5,13 +5,13 @@ public class Product {
     private String name;
     private Double price;
 
-    //-------------------------------------  Construtor  -------------------------------------
+    //^^ -----------------------------------------------  Construtor  --------------------------------------------------
     public Product(String name, Double price) {
         this.name = name;
         this.price = price;
     }
 
-    //-------------------------------------  Getters and Setters  -------------------------------------
+    //^^ ------------------------------------------  Getters and Setters  ----------------------------------------------
     public String getName() {
         return name;
     }
@@ -28,7 +28,7 @@ public class Product {
         this.price = price;
     }
 
-    //-------------------------------------  toString  -------------------------------------
+    //^^ ----------------------------------------------------  toString  -----------------------------------------------
     @Override
     public String toString() {
         return name
@@ -36,7 +36,7 @@ public class Product {
                 + String.format("%.2f", price);
     }
 
-    //-------------------------------------  hashCode and equals  -------------------------------------
+    //^^ ------------------------------------------  hashCode and equals  ----------------------------------------------
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

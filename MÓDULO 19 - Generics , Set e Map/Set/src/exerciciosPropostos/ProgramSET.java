@@ -9,7 +9,7 @@ public class ProgramSET {
     public static void main(String[] args) {
 
         /*
-        Em um portal de cursos ‘online’, cada usuario possui um código unico, representado por um número inteiro.
+        Em um portal de cursos ‘online’, cada usuario possui um código único, representado por um número inteiro.
 
         Cada instrutor do portal pode ter varios cursos, sendo que um mesmo aluno pode se matricular em quantos cursos quiser.
 Assim, o número total de alunos de um instrutor não é simplesmente a soma dos alunos de todos os cursos que ele possui,
@@ -58,8 +58,6 @@ Curso A:    (3 Alunos)       |         Curso B:   (2 Alunos)        |          C
         System.out.println("Total students: " + total.size());
         System.out.println();
         scan.close();
-
-
 
 
     }

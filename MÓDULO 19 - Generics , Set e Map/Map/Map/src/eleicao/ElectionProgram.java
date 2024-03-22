@@ -52,5 +52,5 @@ que ele obteve em uma urna de votação. Você deve fazer um programa para ler o
         scanner.close();
 
     }
-    }
+}
 

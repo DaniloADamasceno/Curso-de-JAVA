@@ -2,12 +2,12 @@ public class Main {
     public static void main(String[] args) {
 
         // Equals
-        // Método que compara o conteúdo de dois objetos, retornando se e ou não falso
+        // Método que compara o conteúdo de dois objetos, retornando se e/ou não falso
 
         String a = "Equals";
         String b = "HasCode";
 
-        System.out.println(a.equals(b));                                                               // Metodo que compara elementos
+        System.out.println(a.equals(b));                                                               // Método que compara elementos
 
         System.out.println();                                                                          //Quebra de linha
         System.out.println("----------------------------------------");

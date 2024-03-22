@@ -6,12 +6,12 @@ public class HasCodeeEqualsProgram {
     public static void main(String[] args) {
 
         // Equals
-        // Método que compara o conteúdo de dois objetos, retornando se e ou não falso
+        // Método que compara o conteúdo de dois objetos, retornando se e/ou não falso
 
         String a = "Equals";
         String b = "HasCode";
 
-        System.out.println(a.equals(b));                                                               // Metodo que compara elementos
+        System.out.println(a.equals(b));                                                               // Método que compara elementos
 
         System.out.println();                                                                          //Quebra de linha
         System.out.println("----------------------------------------");
@@ -23,7 +23,7 @@ public class HasCodeeEqualsProgram {
         String d = "HasCodeHASCODE";
 
         System.out.println("O HasCode de EqualsHASCODE da String 'c' é: " + c.hashCode());
-        System.out.println("O HasCode de HasCodeHASCODE da String 'd' é: " +d.hashCode());
+        System.out.println("O HasCode de HasCodeHASCODE da String 'd' é: " + d.hashCode());
 
         System.out.println();                                                                          //Quebra de linha
         System.out.println("----------------------------------------");
@@ -42,9 +42,6 @@ public class HasCodeeEqualsProgram {
         System.out.println(client1.equals(client2));
         System.out.println(client1.equals(client3));
         System.out.println(client2.equals(client3));
-
-
-
 
 
     }

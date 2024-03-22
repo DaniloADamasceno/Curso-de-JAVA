@@ -17,7 +17,6 @@ public class TesteIgualdadeSet {
         set.add(new ProductSet("Som", 1.200));
 
         ProductSet product1 = new ProductSet("Notebook", 4.500);
-
         System.out.println("O Product1 ja foi criado anteriormente ?  " + set.contains(product1));
     }
 

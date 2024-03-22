@@ -7,22 +7,22 @@ public class Client {
     private final String name;
     private String email;
 
-    //--------------------------------------------- Construtor ------------------------------------------------------
+    //^^ --------------------------------------------- Construtor ------------------------------------------------------
     public Client(String name, String email) {
         this.name = name;
         this.email = email;
     }
 
-    //--------------------------------------------- Getters and Setters ---------------------------------------------
+    //^^ --------------------------------------------- Getters and Setters ---------------------------------------------
     public String getEmail() {
         return email;
     }
+
     public void setEmail(String email) {
         this.email = email;
     }
 
-    //-------------------------------------------- HasCode e Equals---------------------------------------------------
-
+    //^^ -------------------------------------------- HasCode e Equals--------------------------------------------------
 
     @Override
     public boolean equals(Object o) {

@@ -7,7 +7,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f7eb72f-ac89-4e3d-90bf-cf90a0dadea4" name="Changes" comment=":recycle: Refatoração Módulo 19" />
+    <list default="true" id="2f7eb72f-ac89-4e3d-90bf-cf90a0dadea4" name="Changes" comment=":recycle: Refatoração Módulo 19">
+      <change beforePath="$PROJECT_DIR$/HasCode e Equals/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/HasCode e Equals/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Introdução aos GENERICS/src/app/MotivatingProblem1Generics.java" beforeDir="false" afterPath="$PROJECT_DIR$/Introdução aos GENERICS/src/app/MotivatingProblem1Generics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Introdução aos GENERICS/src/app/MotivatingProblem2Generics.java" beforeDir="false" afterPath="$PROJECT_DIR$/Introdução aos GENERICS/src/app/MotivatingProblem2Generics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Introdução aos GENERICS/src/services/PrintService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Introdução aos GENERICS/src/services/PrintService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Introdução aos GENERICS/src/services/PrintServiceGenerics.java" beforeDir="false" afterPath="$PROJECT_DIR$/Introdução aos GENERICS/src/services/PrintServiceGenerics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Introdução aos GENERICS/src/services/PrintServiceObj.java" beforeDir="false" afterPath="$PROJECT_DIR$/Introdução aos GENERICS/src/services/PrintServiceObj.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Map/Map/src/eleicao/ElectionProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/Map/Map/src/eleicao/ElectionProgram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Map/Map/src/entities/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/Map/Map/src/entities/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Map/Map/src/entities/VoteRegistration.java" beforeDir="false" afterPath="$PROJECT_DIR$/Map/Map/src/entities/VoteRegistration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MÓDULO 20 - Expressoes Lambda/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MÓDULO 20 - Expressoes Lambda/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +31,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindBugs-IDEA-Workspace">
+    <toolWindowEditorPreview>false</toolWindowEditorPreview>
   </component>
   <component name="Git.Settings">
     <option name="PUSH_TAGS">
@@ -52,9 +67,9 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2KBxNVUBw0ozg5LLAL665kN02EJ" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -70,8 +85,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Exemplo1.executor": "Run",
+    "Application.Exemplo2.executor": "Run",
+    "Application.Exemplo2MAP.executor": "Run",
     "Application.GenericsDelimitados.executor": "Run",
+    "Application.Main.executor": "Run",
     "Application.Program.executor": "Run",
+    "Application.ProgramSET.executor": "Run",
+    "Application.TesteIgualdadeSet.executor": "Run",
+    "Application.TesteIgualdadeTreeSet.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -80,7 +102,7 @@
     "jdk.selected.JAVA_MODULE": "17 (4)",
     "kotlin-language-version-configured": "true",
     "last_directory_selection": "D:/Danilo A. Damasceno/Desktop/JavaScript e JAVA/JAVA/Modulos 17 a 20/Curso-de-JAVA/MÓDULO 19 - Generics , Set e Map/Set/src/application",
-    "last_opened_file_path": "D:/Danilo A. Damasceno/Desktop/JavaScript e JAVA/JAVA/Modulos 17 a 20/Curso-de-JAVA",
+    "last_opened_file_path": "D:/Danilo A. Damasceno/Desktop/JavaScript e JAVA/JAVA/03 - Modulos 17 a 22/Curso-de-JAVA/MÓDULO 19 - Generics , SET e MAP",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -102,20 +124,7 @@
       <recent name="application" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GenericsDelimitados">
-    <configuration name="ElectionProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="eleicao.ElectionProgram" />
-      <module name="Map" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="eleicao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.HasCodeeEqualsProgram">
     <configuration name="Exemplo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="app.Exemplo1" />
       <module name="Set" />
@@ -129,19 +138,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exemplo1MAP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exemplo1MAP" />
+    <configuration name="Exemplo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.Exemplo2" />
+      <module name="Set" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exemplo2MAP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exemplo2MAP" />
       <module name="Map" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericsDelimitados" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Generics.app_Gene.GenericsDelimitados" />
-      <module name="Generics Delimitados" />
+    <configuration name="HasCodeeEqualsProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.HasCodeeEqualsProgram" />
+      <module name="HasCode e Equals" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Generics.app_Gene.*" />
+          <option name="PATTERN" value="app.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,28 +171,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exemploOne1.application.Program" />
-      <module name="Curingas DELIMITADOS" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="exemploOne1.application.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="HasCode e Equals" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GenericsDelimitados" />
-        <item itemvalue="Application.Program" />
-        <item itemvalue="Application.ElectionProgram" />
-        <item itemvalue="Application.Exemplo1MAP" />
+        <item itemvalue="Application.HasCodeeEqualsProgram" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Exemplo2MAP" />
         <item itemvalue="Application.Exemplo1" />
+        <item itemvalue="Application.Exemplo2" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -181,6 +204,7 @@
       <option name="presentableId" value="Default" />
       <updated>1673461741556</updated>
       <workItem from="1708089402309" duration="860000" />
+      <workItem from="1711128527062" duration="1553000" />
     </task>
     <task id="LOCAL-00001" summary=":wrench: HasCode e Equals 1.0">
       <created>1673482482282</created>
@@ -263,17 +287,6 @@
     <MESSAGE value=":recycle: Refatoração Módulo 19" />
     <option name="LAST_COMMIT_MESSAGE" value=":recycle: Refatoração Módulo 19" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Set/src/app/TesteIgualdadeTreeSet.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

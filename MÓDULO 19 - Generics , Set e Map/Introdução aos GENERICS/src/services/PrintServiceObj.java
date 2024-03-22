@@ -3,15 +3,15 @@ package services;
 import java.util.ArrayList;
 import java.util.List;
 
-public class PrintService {
+public class PrintServiceObj {
 
-    List<Integer> list = new ArrayList<>();
+    List<Object> list = new ArrayList<>();
 
-    public void addValue(Integer value) {
+    public void addValue(Object value) {
         list.add(value);
     }
 
-    public Integer first() {
+    public Object first() {
         if (list.isEmpty()) {
             throw new IllegalStateException("List is empty || Lista está vazia");
         }
@@ -19,14 +19,13 @@ public class PrintService {
     }
 
     public void print() {
-        System.out.print(">>");
+        System.out.print("[");
         if (!list.isEmpty()) {
             System.out.print(list.get(0));
         }
         for (int i = 1; i < list.size(); i++) {
             System.out.print(", " + list.get(i));
         }
-        System.out.println("<<");
+        System.out.println("]");
     }
-
 }

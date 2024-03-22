@@ -5,13 +5,13 @@ public class VoteRegistration {
     private String userName;
     private int votes;
 
-    //-------------------------------------  CONSTRUCTOR  ---------------------------------------------------------
+    //^^ ---------------------------------------  CONSTRUCTOR  ---------------------------------------------------------
     public VoteRegistration(String userName, int votes) {
         this.userName = userName;
         this.votes = votes;
     }
 
-    //-------------------------------------  GETTERS AND SETTERS  --------------------------------------------------
+    //^^ --------------------------------------  GETTERS AND SETTERS  --------------------------------------------------
     public String getUserName() {
         return userName;
     }
@@ -28,16 +28,16 @@ public class VoteRegistration {
         this.votes = votes;
     }
 
-    //-------------------------------------  TOSTRING  -------------------------------------------------------------
+    //^^ --------------------------------------  TO-STRING  -------------------------------------------------------------
     @Override
     public String toString() {
         return "VoteRegistration{" +
-                "Name / Nome='" + userName + '\'' +
-                ", votes / Votos =" + votes +
-                '}';
+               "Name | Nome='" + userName + '\'' +
+               ", votes | Votos =" + votes +
+               '}';
     }
 
-    //-------------------------------------  EQUALS AND HASHCODE  --------------------------------------------------
+    //^^ -------------------------------------  EQUALS AND HASHCODE  ---------------------------------------------------
 
     @Override
     public boolean equals(Object o) {

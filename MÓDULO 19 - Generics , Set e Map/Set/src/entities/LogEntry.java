@@ -7,34 +7,35 @@ public class LogEntry {
     private String username;
     private final Date moment;
 
-    //------------------------------------------ Construtores ------------------------------------------
+    //^^ ------------------------------------------------------- Construtores ------------------------------------------
     public LogEntry(String username, Date moment) {
         this.username = username;
         this.moment = moment;
     }
 
-    //------------------------------------------ Getters e Setters ------------------------------------------
+    //^^ -------------------------------------------------- Getters e Setters ------------------------------------------
     public String getUsername() {
         return username;
     }
+
     public void setUsername(String username) {
         this.username = username;
     }
+
     public Date getDate() {
         return moment;
     }
 
-    //------------------------------------------ toString ------------------------------------------
+    //^^ ----------------------------------------------------------- toString ------------------------------------------
     @Override
     public String toString() {
         return "LogEntry { " +
-                "username ='" + username  +
-                ", instante ='" + moment +
-                '}';
+               "username ='" + username +
+               ", instante ='" + moment +
+               '}';
     }
 
-    //------------------------------------------ hashCode e equals ------------------------------------------
-
+    //^^ -------------------------------------------------- hashCode e equals ------------------------------------------
 
     @Override
     public boolean equals(Object o) {

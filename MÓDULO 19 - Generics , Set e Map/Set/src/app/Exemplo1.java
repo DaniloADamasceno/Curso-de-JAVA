@@ -8,28 +8,28 @@ import java.util.TreeSet;
 public class Exemplo1 {
     public static void main(String[] args) {
 
-        Set<String> set = new HashSet<>();                                  // Muito Rápio, mas não e ordenado
-        Set<String> set2 = new TreeSet<>();                                 // Mais lento, mas mantem a Ordem
-        Set<String> set3 = new LinkedHashSet<>();                           // Não tão Rapido quanto o HasSet, mas Mantem a Ordem
+        Set<String> setOriginalList = new HashSet<>();                      // Muito Rápido, mas não e ordenado
+        Set<String> treeSetList = new TreeSet<>();                          // Mais lento, mas mantém a Ordem
+        Set<String> linkedHashSetList = new LinkedHashSet<>();              // Não tão Rápido quanto o HasSet, mas Mantém a Ordem
 
-        set.add("TV");
-        set.add("Notebook");
-        set.add("Tablet");
-        set.add("Alexa");
-        set.add("Computador");
-        set.add("Telefone");
-        set.add("SmartTV");
-        set.add("SmartWatch");
+        setOriginalList.add("TV");
+        setOriginalList.add("Notebook");
+        setOriginalList.add("Tablet");
+        setOriginalList.add("Alexa");
+        setOriginalList.add("Computador");
+        setOriginalList.add("Telefone");
+        setOriginalList.add("SmartTV");
+        setOriginalList.add("SmartWatch");
 
-        set.remove("TV");                                               // Remove o Elemento
-        set.removeIf(x -> x.length() >= 6);                        // Remove o Elemento que satisfaz a condição (onde o X tem que ser maior que 3)
+        setOriginalList.forEach(System.out::println);                         // Imprime a Lista
+
+        setOriginalList.remove("TV");                                              // Remove o Elemento
+        setOriginalList.removeIf(x -> x.length() >= 6);                        // Remove o Elemento que satisfaz a condição (onde o X tem que ser maior que 3)
 
 
-        for (String ListSET : set) {
+        for (String ListSET : setOriginalList) {
             System.out.println(ListSET);
-
             System.out.println();                                           // Quebra de Linha
-
         }
     }
 }
