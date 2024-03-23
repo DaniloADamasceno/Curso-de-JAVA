@@ -5,11 +5,8 @@ import java.io.IOException;
 
 public class FileWriterANDBufferedWriter {  // Classe responsável por criar um arquivo de texto
 
-
     public static void main(String[] args) {
-
         String[] lines = new String[]{"Bom dia", "Boa tarde", "Boa noite"};                         // Estanciando a String com os 3 valores
-
         // Caminho do arquivo de Texto a ser criado
         String path = "assets/FileWriter_BufferedWriter.txt";
 

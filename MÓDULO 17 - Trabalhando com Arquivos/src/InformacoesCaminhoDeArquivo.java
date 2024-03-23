@@ -5,7 +5,6 @@ public class InformacoesCaminhoDeArquivo {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-
         System.out.print("Digite o caminho do arquivo | Enter the file path: ");
         String filePath = scan.nextLine();
 

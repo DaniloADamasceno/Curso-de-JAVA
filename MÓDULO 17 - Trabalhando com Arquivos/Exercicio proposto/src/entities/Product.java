@@ -6,17 +6,14 @@ public class Product {
     public Double price;
     public Integer quantity;
 
-
-
+    //! ----------------------------------    CONSTRUCTOR     --------------------------------------------------------
     public Product(String name, Double price, Integer quantity) {
         this.name = name;
         this.price = price;
         this.quantity = quantity;
     }
 
-    //---------------------------
-    //!   GETS AND SETS
-    //---------------------------
+    //! ------------------------------------------   GETS AND SETS      ------------------------------------------------
     public String getName() {
         return name;
     }
@@ -36,11 +33,9 @@ public class Product {
     public void setQuantity(Integer quantity) {
         this.quantity = quantity;
     }
-    
-    //---------------------------
-    //!    METODOS
-    //---------------------------
 
+    //!  -----------------------------------------------  METHODS       ------------------------------------------------
+    //%%  Calcula o total do produto
     public double total() {
         return price * quantity;
     }
