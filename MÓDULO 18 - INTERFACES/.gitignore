@@ -266,8 +266,6 @@ $RECYCLE.BIN/
 *.lnk
 
 ### IntelliJ IDEA ###
-.idea
-*.iws
 *.iml
 *.ipr
 
@@ -290,24 +288,17 @@ build/
 .#*
 *#
 *~
-.classpath
-.project
-.settings
 bin
 build
 target
-dependency-reduced-pom.xml
 *.sublime-*
 /scratch
 .gradle
 README.html
-*.iml
-.idea
 .exercism
 
 !/GitCommitEmoji.md
 !/desktop.ini
 !/MÓDULO 17 - Trabalhando com Arquivos/.vscode/
 !/.vscode/
-!/.idea/
 !/.idea/

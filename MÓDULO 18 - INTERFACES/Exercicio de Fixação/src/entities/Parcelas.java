@@ -10,9 +10,7 @@ public class Parcelas {
 
     private SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy"); // formatação da data
 
-    //----------------------------
-    //!     CONSTRUCTOR
-    //----------------------------
+    //!   ----------------------------------    CONSTRUCTOR     --------------------------------------------------------
     public Parcelas(Date dueDate, Double amount) {
         this.dueDate = dueDate;
         this.amount = amount;
@@ -21,9 +19,7 @@ public class Parcelas {
     public Parcelas() {
     }
 
-    //----------------------------
-    //!    GETTERS AND SETTERS
-    //----------------------------
+    //!  ----------------------------------------    GETTERS AND SETTERS    --------------------------------------------
     public Date getDueDate() {
         return dueDate;
     }
@@ -40,7 +36,7 @@ public class Parcelas {
         this.amount = amount;
     }
 
-    //%%---------- >>>> toString
+    //!   -------------------------------------------      To-String      ----------------------------------------------
     @Override
     public String toString() {
         return sdf.format(dueDate) + "  -  " + String.format("%.2f", amount);

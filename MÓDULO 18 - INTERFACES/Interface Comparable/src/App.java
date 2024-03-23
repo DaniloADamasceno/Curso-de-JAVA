@@ -7,10 +7,10 @@ import java.util.List;
 
 public class App {
 
-  public static void main(String[] args) throws Exception {
+    public static void main(String[] args) throws Exception {
     /*
          Faça um programa para ler um arquivo contendo nomes de pessoas (um nome por linha), 
-         armazenando-os em uma lista. Depois, ordenar os dados dessa lista e mostra-losordenadamente na tela. 
+         armazenando-os em uma lista. Depois, ordenar os dados dessa lista e mostra-los ordenadamente na tela.
          Nota: o caminho do arquivo pode ser informado "hardcode".
          
         Maria Brown
@@ -24,27 +24,27 @@ public class App {
         Alex Brown
          */
 
-    List<String> list = new ArrayList<>();
+        List<String> list = new ArrayList<>();
 
-    String path = "D:\\Danilo A. Damasceno\\Desktop\\JavaScript e JAVA\\JAVA\\Modulos 17 a 20\\Curso-de-JAVA\\Módulo 18 - INTERFACES\\Interface Comparable\\Texto_Teste.txt";
+        String path = "MÓDULO 18 - INTERFACES/Interface Comparable/src/assets/Texto_Teste.txt";
 
-    try (BufferedReader brReader = new BufferedReader(new FileReader(path))) {
+        try (BufferedReader brReader = new BufferedReader(new FileReader(path))) {
 
-      String name = brReader.readLine();
-      while (name != null) {
-        list.add(name);
-        name = brReader.readLine();
-      }
+            String name = brReader.readLine();
+            while (name != null) {
+                list.add(name);
+                name = brReader.readLine();
+            }
 
-      Collections.sort(list);
+            Collections.sort(list);
 
-      for (String x : list) {
-        System.out.println(x);
-      }
+            for (String x : list) {
+                System.out.println(x);
+            }
 
-    } catch (IOException e) {
-      System.out.println("Error: " + e.getMessage());
+        } catch (IOException e) {
+            System.out.println("Error: " + e.getMessage());
+        }
+
     }
-
-  }
 }

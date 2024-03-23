@@ -4,7 +4,152 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43d6094b-0a85-4493-b988-036b9277e3a7" name="Changes" comment=":recycle: Refatoração Módulo 18" />
+    <list default="true" id="43d6094b-0a85-4493-b988-036b9277e3a7" name="Changes" comment=":recycle: Refatoração Módulo 18">
+      <change afterPath="$PROJECT_DIR$/.idea/active-tab-highlighter-v2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/csv-editor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/7/07c37cde2686be7ae4d59ff54a21943bf7824838" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/9/09c092709e111c76f51567c727d3341403bd3d1a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/0/202f9471d48a02d70c8854a8cbf2897746c5d2c2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/8/28edeb349b548ff81d920dd93a2982cd32dfb0ce" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/0/3025aac4feef239eb35ef6847a7be12e278b727d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/9/39adf4df6e81e012c25840816e692fa788c4a9c6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/b/4b5bba044d26923f1b1c9309e38054dea8cac52e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/0/50510a3fd53c83cc14ac89d8dbbf9f98f2c88e03" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/3/537c46572538190b8d9bf32dd274490710632fee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/8/68e42f158884e723dc681210d9d070b6980583fe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/0/702c0b14338bff0f289b89a2413014c449122f5a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/9/79af5c519fd80da1aa40a9674cca616fd94102df" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/a/7aacd4e1da2c8ef8ed935ffa969666b0183e3a5e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/a/7ae9e313127f4c404f518368b4c3507d5fdbf827" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/a/8aebe0ed1aa1edbfae3a2954eb1108b995526778" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/3/93255d243a59bc6f084861c2862324b50c575f79" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/4/94f534ccd43018257ea0abf9a660667f254c71d2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/9/9960882a372b01d4df9cd4f70d593e0b0764ca62" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/2/c28a1224ef11a30a4104b4010d61dfe699f81147" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/3/c3ef5961e316d22f2b21c58f51ae2a32d4e2bd9a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/1/d159d76af72d417ffcd55dd0255ce4ff819b01ab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/3/d324bd381306be1a56e101d56e0d151cf643dcdc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/d/dde35b2fbd62abd22af9436d9b5d1447057426a4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/8/e85e2fb960c633e4f0b46b9bc940e920fbef9243" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/a/ea436cadf35f12d57e9894a9d6dd7841beea4935" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/c/ec2a48849d26c7952654bd835714ae98c7978096" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/d/ed4a277e3e1d5e0a9ed0420e5a5a8d2091c46660" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/1/f1400223dc9fa6d225a445da942d097dc531c45f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/7/07c37cde2686be7ae4d59ff54a21943bf7824838" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/9/09c092709e111c76f51567c727d3341403bd3d1a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/0/202f9471d48a02d70c8854a8cbf2897746c5d2c2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/8/28edeb349b548ff81d920dd93a2982cd32dfb0ce" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/0/3025aac4feef239eb35ef6847a7be12e278b727d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/9/39adf4df6e81e012c25840816e692fa788c4a9c6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/b/4b5bba044d26923f1b1c9309e38054dea8cac52e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/0/50510a3fd53c83cc14ac89d8dbbf9f98f2c88e03" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/3/537c46572538190b8d9bf32dd274490710632fee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/8/68e42f158884e723dc681210d9d070b6980583fe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/0/702c0b14338bff0f289b89a2413014c449122f5a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/9/79af5c519fd80da1aa40a9674cca616fd94102df" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/a/7aacd4e1da2c8ef8ed935ffa969666b0183e3a5e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/a/7ae9e313127f4c404f518368b4c3507d5fdbf827" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/a/8aebe0ed1aa1edbfae3a2954eb1108b995526778" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/3/93255d243a59bc6f084861c2862324b50c575f79" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/4/94f534ccd43018257ea0abf9a660667f254c71d2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/9/9960882a372b01d4df9cd4f70d593e0b0764ca62" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/2/c28a1224ef11a30a4104b4010d61dfe699f81147" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/3/c3ef5961e316d22f2b21c58f51ae2a32d4e2bd9a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/1/d159d76af72d417ffcd55dd0255ce4ff819b01ab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/3/d324bd381306be1a56e101d56e0d151cf643dcdc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/d/dde35b2fbd62abd22af9436d9b5d1447057426a4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/8/e85e2fb960c633e4f0b46b9bc940e920fbef9243" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/a/ea436cadf35f12d57e9894a9d6dd7841beea4935" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/c/ec2a48849d26c7952654bd835714ae98c7978096" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/d/ed4a277e3e1d5e0a9ed0420e5a5a8d2091c46660" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/1/f1400223dc9fa6d225a445da942d097dc531c45f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Herança e Cumprir Contrato/src/shapes/entities/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Interface Comparable/src/application/AppComFuncionarios.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Locadora de Veiculos/src/noInterface/entities/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Locadora de Veiculos/src/withInterface/LocadoraCarWithInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Default Methods/Default Methods.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Default Methods/Default Methods.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Default Methods/src/application/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/Default Methods/src/application/AppCalculoTaxaDeJuros.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Default Methods/src/services/BrazilInterestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Default Methods/src/services/BrazilInterestService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Default Methods/src/services/InterestService_INTER.java" beforeDir="false" afterPath="$PROJECT_DIR$/Default Methods/src/services/InterestServiceINTER.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Default Methods/src/services/Usa_InterestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Default Methods/src/services/UsaInterestService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercicio de Fixação/Exercicio de Fixação.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Exercicio de Fixação/Exercicio de Fixação.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercicio de Fixação/src/application/PaymentPayPal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exercicio de Fixação/src/application/PaymentPayPal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercicio de Fixação/src/entities/Contract.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exercicio de Fixação/src/entities/Contract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercicio de Fixação/src/entities/Parcelas.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exercicio de Fixação/src/entities/Parcelas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercicio de Fixação/src/service/ContractService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exercicio de Fixação/src/service/ContractService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercicio de Fixação/src/service/Online_Payment_Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exercicio de Fixação/src/service/ServiceOnlinePayment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercicio de Fixação/src/service/Paypal_Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exercicio de Fixação/src/service/ServicePaypal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Herança Multipla - Problema Diamante/Herança Multipla - Problema Diamante.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Herança Multipla - Problema Diamante/Herança Multipla - Problema Diamante.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Herança Multipla - Problema Diamante/src/application_Diamante/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/Herança Multipla - Problema Diamante/src/appDiamante/AppDiamante.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Herança Multipla - Problema Diamante/src/device_Diamante/ConcretePrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Herança Multipla - Problema Diamante/src/deviceDiamante/ConcretePrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Herança Multipla - Problema Diamante/src/device_Diamante/ConcreteScanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/Herança Multipla - Problema Diamante/src/deviceDiamante/ConcreteScanner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Herança Multipla - Problema Diamante/src/device_Diamante/Device.java" beforeDir="false" afterPath="$PROJECT_DIR$/Herança Multipla - Problema Diamante/src/deviceDiamante/Device.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Herança Multipla - Problema Diamante/src/device_Diamante/Multifuncional.java" beforeDir="false" afterPath="$PROJECT_DIR$/Herança Multipla - Problema Diamante/src/deviceDiamante/Multifuncional.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Herança Multipla - Problema Diamante/src/device_Diamante/interfaces/Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Herança Multipla - Problema Diamante/src/deviceDiamante/interfaces/Printer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Herança Multipla - Problema Diamante/src/device_Diamante/interfaces/Scanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/Herança Multipla - Problema Diamante/src/deviceDiamante/interfaces/Scanner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Herança e Cumprir Contrato/Herança e Cumprir Contrato.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Herança e Cumprir Contrato/Herança e Cumprir Contrato.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Herança e Cumprir Contrato/src/applicationShapes/ProgramaShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/Herança e Cumprir Contrato/src/applicationShapes/ProgramaShape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Herança e Cumprir Contrato/src/modelShapes/entitiesShapes/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Herança e Cumprir Contrato/src/modelShapes/entitiesShapes/FormAbstract.java" beforeDir="false" afterPath="$PROJECT_DIR$/Herança e Cumprir Contrato/src/shapes/entities/FormAbstract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Herança e Cumprir Contrato/src/modelShapes/entitiesShapes/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Herança e Cumprir Contrato/src/shapes/entities/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Herança e Cumprir Contrato/src/modelShapes/entitiesShapes/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/Herança e Cumprir Contrato/src/shapes/entities/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Herança e Cumprir Contrato/src/modelShapes/enums_shapes/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/Herança e Cumprir Contrato/src/shapes/enums/Color.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interface Comparable/Interface Comparable.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Interface Comparable/Interface Comparable.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interface Comparable/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interface Comparable/Texto_Teste.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Interface Comparable/src/assets/Texto_Teste.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interface Comparable/Texto_Teste_Funcionarios.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Interface Comparable/src/assets/Texto_Teste_Funcionarios.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interface Comparable/src/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/Interface Comparable/src/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interface Comparable/src/application/App_Com_Funcionarios.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interface Comparable/src/entities/Funcionarios.java" beforeDir="false" afterPath="$PROJECT_DIR$/Interface Comparable/src/entities/Funcionarios.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Locadora de Veiculos/Locadora de Veiculos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Locadora de Veiculos/Locadora de Veiculos.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Locadora de Veiculos/src/interface_project/Locadora_Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/Locadora de Veiculos/src/noInterface/LocadoraCarWithInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Locadora de Veiculos/src/interface_project/models/CarRental.java" beforeDir="false" afterPath="$PROJECT_DIR$/Locadora de Veiculos/src/withInterface/entities/CarRental.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Locadora de Veiculos/src/interface_project/models/Invoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/Locadora de Veiculos/src/withInterface/entities/Invoice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Locadora de Veiculos/src/interface_project/models/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Locadora de Veiculos/src/withInterface/entities/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Locadora de Veiculos/src/interface_project/service/BrazilTaxService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Locadora de Veiculos/src/withInterface/service/BrazilTaxService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Locadora de Veiculos/src/interface_project/service/RentalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Locadora de Veiculos/src/withInterface/service/RentalService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Locadora de Veiculos/src/interface_project/service/TaxService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Locadora de Veiculos/src/withInterface/service/TaxService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Locadora de Veiculos/src/projeto_sem_Interface/Locadora_Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Locadora de Veiculos/src/projeto_sem_Interface/models/CarRental.java" beforeDir="false" afterPath="$PROJECT_DIR$/Locadora de Veiculos/src/noInterface/entities/CarRental.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Locadora de Veiculos/src/projeto_sem_Interface/models/Invoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/Locadora de Veiculos/src/noInterface/entities/Invoice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Locadora de Veiculos/src/projeto_sem_Interface/models/Vehicle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Locadora de Veiculos/src/projeto_sem_Interface/service/BrazilTaxService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Locadora de Veiculos/src/noInterface/service/BrazilTaxService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Locadora de Veiculos/src/projeto_sem_Interface/service/RentalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Locadora de Veiculos/src/noInterface/service/RentalService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MÓDULO 19 - Generics , Set e Map/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MÓDULO 19 - Generics , Set e Map/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Módulo 18 - INTERFACES.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Módulo 18 - INTERFACES.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Default Methods/src/services/InterestService_INTER.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Default Methods/src/services/Usa_InterestService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercicio de Fixação/src/service/Online_Payment_Service.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercicio de Fixação/src/service/Paypal_Service.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Herança Multipla - Problema Diamante/src/application_Diamante/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Herança Multipla - Problema Diamante/src/device_Diamante/ConcretePrinter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Herança Multipla - Problema Diamante/src/device_Diamante/ConcreteScanner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Herança Multipla - Problema Diamante/src/device_Diamante/Device.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Herança Multipla - Problema Diamante/src/device_Diamante/Multifuncional.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Herança Multipla - Problema Diamante/src/device_Diamante/interfaces/Printer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Herança Multipla - Problema Diamante/src/device_Diamante/interfaces/Scanner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interface Comparable/Texto_Teste.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interface Comparable/Texto_Teste_Funcionarios.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Locadora de Veiculos/src/interface_project/Locadora_Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Locadora de Veiculos/src/interface_project/models/CarRental.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Locadora de Veiculos/src/interface_project/models/Invoice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Locadora de Veiculos/src/interface_project/models/Vehicle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Locadora de Veiculos/src/interface_project/service/BrazilTaxService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Locadora de Veiculos/src/interface_project/service/RentalService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Locadora de Veiculos/src/interface_project/service/TaxService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Locadora de Veiculos/src/projeto_sem_Interface/models/CarRental.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Locadora de Veiculos/src/projeto_sem_Interface/models/Invoice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Locadora de Veiculos/src/projeto_sem_Interface/service/BrazilTaxService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Locadora de Veiculos/src/projeto_sem_Interface/service/RentalService.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,9 +180,9 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2J96rpynKLbx6D8uORbtkDMM0AO" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -49,14 +194,20 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.App (1).executor": "Run",
     "Application.App.executor": "Run",
+    "Application.AppDiamante.executor": "Run",
+    "Application.App_Com_Funcionarios.executor": "Run",
+    "Application.LocadoraCarNoInterface.executor": "Run",
+    "Application.PaymentPayPal.executor": "Run",
+    "Application.ProgramaShape.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/danilo-linux/Área de Trabalho/Curso de JAVA /Curso-de-JAVA/Módulo 18 - INTERFACES",
+    "last_opened_file_path": "D:/Danilo A. Damasceno/Desktop/JavaScript e JAVA/JAVA/03 - Modulos 17 a 22/Curso-de-JAVA/MÓDULO 18 - INTERFACES/Interface Comparable/src/assets",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -66,14 +217,22 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Danilo A. Damasceno\Desktop\JavaScript e JAVA\JAVA\03 - Modulos 17 a 22\Curso-de-JAVA\MÓDULO 18 - INTERFACES\Interface Comparable\src\assets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Danilo A. Damasceno\Desktop\JavaScript e JAVA\JAVA\03 - Modulos 17 a 22\Curso-de-JAVA\MÓDULO 18 - INTERFACES\Interface Comparable\src\assets" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.AppCalculoTaxaDeJuros">
     <configuration default="true" type="LiferayDockerServerConfiguration" factoryName="Liferay Docker Server">
       <option name="passParentEnvironments" value="true" />
       <option name="workspaceLocation" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="application.App" />
+    <configuration name="AppCalculoTaxaDeJuros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="application.AppCalculoTaxaDeJuros" />
       <module name="Default Methods" />
       <extension name="coverage">
         <pattern>
@@ -85,9 +244,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AppComFuncionarios" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="application.AppComFuncionarios" />
+      <module name="Interface Comparable" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppDiamante" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="appDiamante.AppDiamante" />
+      <module name="Herança Multipla - Problema Diamante" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="appDiamante.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentPayPal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="application.PaymentPayPal" />
+      <module name="Exercicio de Fixação" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProgramaShape" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="applicationShapes.ProgramaShape" />
+      <module name="Herança e Cumprir Contrato" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="applicationShapes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App" />
+        <item itemvalue="Application.AppCalculoTaxaDeJuros" />
+        <item itemvalue="Application.PaymentPayPal" />
+        <item itemvalue="Application.ProgramaShape" />
+        <item itemvalue="Application.AppDiamante" />
+        <item itemvalue="Application.AppComFuncionarios" />
       </list>
     </recent_temporary>
   </component>
@@ -107,6 +322,7 @@
       <option name="presentableId" value="Default" />
       <updated>1671478152710</updated>
       <workItem from="1708016331919" duration="396000" />
+      <workItem from="1711229320977" duration="5234000" />
     </task>
     <task id="LOCAL-00001" summary=":recycle: Refatoração Módulo 18">
       <option name="closed" value="true" />
@@ -130,21 +346,21 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value=":recycle: .ignore" />
     <MESSAGE value=":recycle: Refatoração Módulo 18" />
     <option name="LAST_COMMIT_MESSAGE" value=":recycle: Refatoração Módulo 18" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Exercicio de Fixação/src/application/PaymentPayPal.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

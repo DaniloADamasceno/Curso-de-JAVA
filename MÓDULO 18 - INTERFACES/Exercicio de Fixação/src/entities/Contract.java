@@ -10,11 +10,9 @@ public class Contract {
     private Date date;
     private Double totalValue;
 
-    private List<Parcelas> parcelas = new ArrayList<>();
+    private final List<Parcelas> parcelas = new ArrayList<>();
 
-    //----------------------------
-    //!     CONSTRUCTOR
-    //----------------------------
+    //!   ----------------------------------    CONSTRUCTOR     --------------------------------------------------------
     public Contract(Integer number, Date date, Double totalValue) {
         this.number = number;
         this.date = date;
@@ -24,9 +22,7 @@ public class Contract {
     public Contract() {
     }
 
-    //----------------------------
-    //!    GETTERS AND SETTERS
-    //----------------------------
+    //!  ----------------------------------------    GETTERS AND SETTERS    --------------------------------------------
     public Integer getNumber() {
         return number;
     }
@@ -55,6 +51,7 @@ public class Contract {
         return parcelas;
     }
 
+    //!   -------------------------------------------      METHODS      ------------------------------------------------
     //%%---------- >>>> Add Parcelas
     public void addParcelas(Parcelas percela) {
         parcelas.add(percela);
