@@ -6,6 +6,7 @@
 <div align="center">
 
 ### ♻️ EM REFATORAÇÃO E ORGANIZAÇÃO ♻️
+
 </div>
 
  </br> </br>
@@ -26,24 +27,25 @@ Nele, você terá acesso a uma variedade de projetos, exemplos de código e recu
 
 Essa estrutura facilita tanto o aprendizado quanto a prática, permitindo que você se aprofunde em áreas específicas de interesse.
 
- Esta pasta está destinada aos módulos 17 a 20 e um projeto CRUD Básico.
+ Esta pasta está destinada aos módulos 14 a 20 e um projeto CRUD Básico.
 
 
 <div align="center">
 
-**Esta pasta está destinada aos módulos 17 a 20 e um projeto CRUD Básico.**
+**Esta pasta está destinada aos módulos 14 a 20 e um projeto CRUD Básico.**
 </div>
  
 </br>
+
+- [x] Módulo 14 - Herança e Polimorfismo
 - [x] Módulo 15 - Tratamento de Exceções.
 - [x] Módulo 17 - Trabalhando com Arquivos.
 - [x] Módulo 18 - Interfaces.
 - [x] Módulo 19 - Generics , SET e MAP.
 - [x] Módulo 20 - Programação Funcional e Expressões LAMBDA.
-- [x] Módulo 21 - Banco de Dados com JDBC. 
+- [x] Módulo 21 - Banco de Dados com JDBC.
 - [x] Módulo 22 - Java EE JPA / Hibernate.
-- [x] Projeto CRUD - Criar , Ler, Atualizar ou Deletar.
-
+- [ ] Projeto CRUD - Criar , Ler, Atualizar ou Deletar.
 
 ## 📦 Contribuição
 
@@ -58,8 +60,6 @@ Se desejar contribuir para este projeto, siga estas etapas:
 6. Abra um pull request no GitHub.
 
 ## 🛠️ Stack utilizadas
-
-**Front-end:**
 
 
 **Back-end:**
