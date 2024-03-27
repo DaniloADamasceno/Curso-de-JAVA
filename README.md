@@ -27,16 +27,18 @@ Nele, você terá acesso a uma variedade de projetos, exemplos de código e recu
 
 Essa estrutura facilita tanto o aprendizado quanto a prática, permitindo que você se aprofunde em áreas específicas de interesse.
 
- Esta pasta está destinada aos módulos 14 a 20 e um projeto CRUD Básico.
-
 
 <div align="center">
 
-**Esta pasta está destinada aos módulos 14 a 20 e um projeto CRUD Básico.**
+**Esta pasta está destinada aos módulos 09 a 20 e um projeto CRUD Básico.**
 </div>
  
 </br>
 
+- [x] MÓDULO 09 - Construtores, This, Sobrecarga e Encapsulamento
+- [x] Módulo 10 - Memorias Arrays e Listas
+- [x] Módulo 11 - Tópicos Especiais em java - Data e Hora
+- [x] Módulo 13 - Enumerações e Composições
 - [x] Módulo 14 - Herança e Polimorfismo
 - [x] Módulo 15 - Tratamento de Exceções.
 - [x] Módulo 17 - Trabalhando com Arquivos.
